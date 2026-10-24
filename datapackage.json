@@ -1,0 +1,216 @@
+{
+  "name": "us-municipal-bulk-trash-and-landfill-fees-2026",
+  "title": "US Municipal Curbside Bulk Trash, County Landfill Tipping Fees & Roll-Off Dumpster Street Permit Dataset (2026)",
+  "description": "Primary-source verified dataset of municipal curbside bulky-waste collection rules, county landfill and transfer station commercial/residential tipping fees ($/ton), 10-40 yard roll-off dumpster rental rate ranges, and municipal street right-of-way (ROW) permit requirements across 14 US cities in 6 states (TX, FL, GA, CO, AZ, NC). Compiled and maintained by JunkHaul HQ (https://junkhaulhq.com/).",
+  "version": "2026.10.24",
+  "created": "2026-10-24",
+  "homepage": "https://junkhaulhq.com/",
+  "id": "rtpait/us-municipal-bulk-trash-fees-2026",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "JunkHaul HQ Research Team",
+      "path": "https://junkhaulhq.com/about/",
+      "role": "publisher"
+    }
+  ],
+  "keywords": [
+    "municipal solid waste",
+    "bulk trash pickup",
+    "landfill tipping fees",
+    "transfer station rates",
+    "roll-off dumpster rental cost",
+    "right of way street permits",
+    "construction and demolition debris",
+    "civic open data",
+    "local government fees"
+  ],
+  "sources": [
+    {
+      "title": "JunkHaul HQ — National Municipal Bulk Pickup, Landfill Fee & Roll-Off Dumpster Directory",
+      "path": "https://junkhaulhq.com/"
+    },
+    {
+      "title": "JunkHaul HQ — City-by-City Roll-Off Dumpster Cost & Street Permit Hub",
+      "path": "https://junkhaulhq.com/dumpster-rental/"
+    },
+    {
+      "title": "JunkHaul HQ — City-by-City Curbside Bulk Trash & Convenience Center Hub",
+      "path": "https://junkhaulhq.com/junk-removal/"
+    }
+  ],
+  "resources": [
+    {
+      "name": "us-municipal-bulk-trash-and-landfill-fees-2026-csv",
+      "path": "us-municipal-bulk-trash-and-landfill-fees-2026.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "primaryKey": "city_slug",
+        "fields": [
+          {
+            "name": "city_slug",
+            "type": "string",
+            "description": "Canonical URL slug for the municipality (e.g., austin-tx, raleigh-nc)."
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "Municipality or regional corridor name."
+          },
+          {
+            "name": "state",
+            "type": "string",
+            "description": "2-letter US state postal abbreviation (NC, TX, FL, GA, CO, AZ)."
+          },
+          {
+            "name": "county",
+            "type": "string",
+            "description": "Primary county or counties serving the municipality."
+          },
+          {
+            "name": "covered_zips",
+            "type": "string",
+            "description": "Pipe-delimited list of representative 5-digit USPS ZIP codes verified in the estimator."
+          },
+          {
+            "name": "last_verified",
+            "type": "date",
+            "description": "ISO-8601 date when official .gov fee schedules and ordinances were last audited."
+          },
+          {
+            "name": "bulk_pickup_program",
+            "type": "string",
+            "description": "Official name of the municipal curbside bulky waste collection program."
+          },
+          {
+            "name": "bulk_pickup_cost_model",
+            "type": "string",
+            "description": "Fee structure (e.g., Free/Included in utility rate vs. Paid per-trip/per-item fee)."
+          },
+          {
+            "name": "bulk_pickup_volume_or_item_limit",
+            "type": "string",
+            "description": "Maximum cubic yards, item count, or annual appointment cap per household."
+          },
+          {
+            "name": "bulk_pickup_c_and_d_allowed",
+            "type": "string",
+            "description": "Whether municipal curbside bulk collection accepts construction and demolition (C&D) debris."
+          },
+          {
+            "name": "primary_disposal_facility",
+            "type": "string",
+            "description": "Primary county landfill or municipal transfer station serving the metro."
+          },
+          {
+            "name": "facility_address",
+            "type": "string",
+            "description": "Street address of the primary landfill, scale house, or transfer station."
+          },
+          {
+            "name": "official_landfill_tipping_rate_usd_ton",
+            "type": "number",
+            "description": "Commercial MSW/C&D gate tipping fee in USD per ton (midpoint where tiered)."
+          },
+          {
+            "name": "official_landfill_tipping_rate_summary",
+            "type": "string",
+            "description": "Detailed breakdown of official commercial per-ton scale rates and mattress/minimum surcharges."
+          },
+          {
+            "name": "resident_self_haul_rule",
+            "type": "string",
+            "description": "Rules and fees for residents self-hauling bulky waste in personal vehicles."
+          },
+          {
+            "name": "dumpster_10yd_7_10_day_range",
+            "type": "string",
+            "description": "All-in 7- to 10-day private roll-off rental price range for a 10-yard container."
+          },
+          {
+            "name": "dumpster_15yd_7_10_day_range",
+            "type": "string",
+            "description": "All-in 7- to 10-day private roll-off rental price range for a 15-yard container."
+          },
+          {
+            "name": "dumpster_20yd_7_10_day_range",
+            "type": "string",
+            "description": "All-in 7- to 10-day private roll-off rental price range for a 20-yard container."
+          },
+          {
+            "name": "dumpster_30yd_7_10_day_range",
+            "type": "string",
+            "description": "All-in 7- to 10-day private roll-off rental price range for a 30-yard container."
+          },
+          {
+            "name": "dumpster_40yd_7_10_day_range",
+            "type": "string",
+            "description": "All-in 7- to 10-day private roll-off rental price range for a 40-yard container."
+          },
+          {
+            "name": "hauler_overage_rate_per_ton",
+            "type": "string",
+            "description": "Private roll-off hauler per-ton overage fee above included weight allowance."
+          },
+          {
+            "name": "private_driveway_permit_required",
+            "type": "string",
+            "description": "Whether a municipal permit is required on a private residential driveway."
+          },
+          {
+            "name": "street_row_permit_authority",
+            "type": "string",
+            "description": "Municipal department issuing Right-of-Way (ROW) street obstruction permits."
+          },
+          {
+            "name": "street_row_permit_summary",
+            "type": "string",
+            "description": "Lead time, bond/insurance requirements, and fines for street dumpster placement."
+          },
+          {
+            "name": "official_gov_bulk_url",
+            "type": "string",
+            "format": "uri",
+            "description": "Primary official .gov URL for curbside bulky item rules."
+          },
+          {
+            "name": "official_gov_landfill_or_permit_url",
+            "type": "string",
+            "format": "uri",
+            "description": "Primary official .gov URL for landfill tipping fees or ROW permits."
+          },
+          {
+            "name": "junkhaulhq_city_bulk_guide_url",
+            "type": "string",
+            "format": "uri",
+            "description": "Canonical JunkHaul HQ city bulk pickup & convenience center guide URL."
+          },
+          {
+            "name": "junkhaulhq_city_dumpster_guide_url",
+            "type": "string",
+            "format": "uri",
+            "description": "Canonical JunkHaul HQ city roll-off dumpster cost & street permit guide URL."
+          }
+        ]
+      }
+    },
+    {
+      "name": "us-municipal-bulk-trash-and-landfill-fees-2026-json",
+      "path": "us-municipal-bulk-trash-and-landfill-fees-2026.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "description": "Full nested JSON representation including complete rule arrays, prohibited items, and all verified .gov citations."
+    }
+  ],
+  "repository": "https://github.com/rtpait/us-municipal-bulk-trash-fees-2026"
+}

@@ -1,0 +1,88 @@
+{
+  "@context": "https://schema.org",
+  "@type": "DataCatalog",
+  "@id": "https://junkhaulhq.com/#municipal-waste-data-catalog",
+  "name": "JunkHaul HQ Open Civic Waste & Roll-Off Dumpster Cost Data Catalog",
+  "url": "https://junkhaulhq.com/",
+  "description": "Open civic datasets tracking US municipal curbside bulk trash collection ordinances, county landfill and transfer station per-ton tipping fees, 10-40 yard roll-off dumpster pricing, and municipal right-of-way street permit regulations.",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://junkhaulhq.com/#organization",
+    "name": "JunkHaul HQ",
+    "url": "https://junkhaulhq.com/"
+  },
+  "dataset": [
+    {
+      "@type": "Dataset",
+      "@id": "https://junkhaulhq.com/#dataset-municipal-bulk-landfill-fees-2026",
+      "name": "US Municipal Curbside Bulk Trash, County Landfill Tipping Fees & Roll-Off Dumpster Street Permit Dataset (2026)",
+      "description": "Verified 2026 municipal bulky-waste collection rules, commercial and residential landfill tipping rates ($/ton), 10 to 40 yard roll-off dumpster rental prices, and street right-of-way (ROW) permit requirements across 14 major US cities in 6 states (TX, FL, GA, CO, AZ, NC).",
+      "url": "https://junkhaulhq.com/#state-directory",
+      "sameAs": [
+        "https://junkhaulhq.com/dumpster-rental/",
+        "https://junkhaulhq.com/junk-removal/"
+      ],
+      "version": "2026.10.24",
+      "datePublished": "2026-10-24",
+      "dateModified": "2026-10-24",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isAccessibleForFree": true,
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://junkhaulhq.com/#organization",
+        "name": "JunkHaul HQ",
+        "url": "https://junkhaulhq.com/"
+      },
+      "keywords": [
+        "municipal bulk trash pickup rules",
+        "county landfill tipping fees per ton",
+        "transfer station dump fees",
+        "roll-off dumpster rental cost by city",
+        "20 yard dumpster price",
+        "municipal street right-of-way dumpster permits",
+        "construction and demolition debris disposal"
+      ],
+      "temporalCoverage": "2026",
+      "spatialCoverage": {
+        "@type": "Place",
+        "name": "United States (TX, FL, GA, CO, AZ, NC — 14 Metropolitan Markets)"
+      },
+      "variableMeasured": [
+        {
+          "@type": "PropertyValue",
+          "name": "Official Landfill / Transfer Station Commercial Tipping Rate",
+          "unitText": "USD per ton"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "20-Yard Roll-Off Dumpster 7-10 Day Flat Rental Rate",
+          "unitText": "USD"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Roll-Off Overage Rate Above Included Weight Limit",
+          "unitText": "USD per ton"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Municipal Curbside Bulk Pickup Fee & Volume Allowance",
+          "unitText": "USD / Cubic Yards"
+        }
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://junkhaulhq.com/open-data/us-municipal-bulk-trash-and-landfill-fees-2026.csv",
+          "name": "us-municipal-bulk-trash-and-landfill-fees-2026.csv"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://junkhaulhq.com/open-data/us-municipal-bulk-trash-and-landfill-fees-2026.json",
+          "name": "us-municipal-bulk-trash-and-landfill-fees-2026.json"
+        }
+      ]
+    }
+  ]
+}

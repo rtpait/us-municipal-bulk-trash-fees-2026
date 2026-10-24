@@ -1,0 +1,1639 @@
+{
+  "dataset_title": "US Municipal Curbside Bulk Trash, County Landfill Tipping Fees, Roll-Off Dumpster Rates & Street Permit Dataset (2026)",
+  "version": "2026.10.24",
+  "published_date": "2026-10-24",
+  "license": "CC-BY-4.0",
+  "publisher": {
+    "name": "JunkHaul HQ (Research Triangle Park AI Transformation LLC)",
+    "url": "https://junkhaulhq.com/",
+    "dumpster_hub_url": "https://junkhaulhq.com/dumpster-rental/",
+    "city_bulk_hub_url": "https://junkhaulhq.com/junk-removal/",
+    "item_guides_hub_url": "https://junkhaulhq.com/remove/"
+  },
+  "coverage": {
+    "states_count": 6,
+    "states": [
+      "NC",
+      "TX",
+      "FL",
+      "GA",
+      "CO",
+      "AZ"
+    ],
+    "municipalities_count": 14,
+    "verified_routes_linked": 28
+  },
+  "records": [
+    {
+      "city_slug": "apex-nc",
+      "city": "Apex",
+      "state": "NC",
+      "county": "Wake County",
+      "covered_zips": [
+        "27502",
+        "27523",
+        "27539"
+      ],
+      "last_verified": "2026-10-24",
+      "curbside_bulk_pickup": {
+        "program_name": "Town of Apex Public Works — Curbside Bulk Item Collection & Biweekly Yard Waste",
+        "cost_model": "Paid Per-Trip / Per-Item Fee ($30 trip fee for 1-2 items; $15/item for 3+; $15/mattress on Fridays)",
+        "volume_or_item_limit": "1-2 items per $30 base trip fee (+$15/additional item); mattresses Fridays only",
+        "c_and_d_remodeling_debris_allowed": "No (Strictly Prohibited)",
+        "how_to_schedule": "Submit an online Bulk Item Collection request at apexnc.org or call Ask Apex at (919) 249-3311 (you will receive an email within 1–2 business days with your scheduled pickup day).",
+        "rules": [
+          "Town of Apex Public Works offers scheduled curbside Bulk Item Collection for single-family residential utility customers (not available for businesses or apartments): $30 trip fee for 1 or 2 bulk items, and $15 per item for 3+ items (billed to your Town of Apex utility bill).",
+          "Mattresses and box springs are collected on Fridays ONLY and count as two separate items at $15 each in addition to the $30 trip fee ($45 minimum for 1 mattress).",
+          "All scheduled bulk items must be placed at the curb by 6:00 a.m. on collection day. A 12' × 12' piece of carpet counts as 1 item; fragile items (toilets, mirrors) must be boxed or wrapped in plastic.",
+          "New Apex residents qualify for a one-time FREE curbside moving box pickup (boxes must be completely empty, flattened, and stacked at the curb).",
+          "Effective October 19, 2026, Town of Apex curbside Yard Waste Collection runs biweekly (Zone A west of I-540 / Zone B east of I-540) with a 2-cubic-yard limit per cycle (limbs under 6 ft long and 6 in diameter)."
+        ],
+        "not_accepted": [
+          "construction, demolition, and remodeling materials (including toilets, vanities, mirrors & cabinets from remodels)",
+          "electronics (TVs, laptops, monitors — take to 6130 Old Smithfield Rd)",
+          "household hazardous waste (paint, motor oil — take to 6150 Old Smithfield Rd)",
+          "household recycling and yard waste in bulk piles"
+        ]
+      },
+      "landfill_and_transfer_station": {
+        "primary_facility_name": "Wake County South Wake Landfill & Convenience Center Site 2 (Located Right in Apex)",
+        "facility_address": "South Wake Landfill: 6300 Old Smithfield Rd | Convenience Center Site 2: 6120 Old Smithfield Rd | Multi-Material Facility: 6130 Old Smithfield Rd | South Wake HHW: 6150 Old Smithfield Rd, Apex, NC 27539",
+        "official_tipping_rate_usd_per_ton_midpoint": 37.0,
+        "official_tipping_rate_description": "$37.00/ton MSW at Wake County South Wake Landfill ($15/mattress shredder fee)",
+        "hauler_overage_rate_per_ton": "$55 to $70 per ton above your rental’s included weight limit",
+        "resident_self_haul_policy": "Free residential drop-off (items <8 ft, up to 2 mattresses/day, free white goods/appliances) at Wake County Site 2 (6120 Old Smithfield Rd) & Multi-Material Facility (6130 Old Smithfield Rd)"
+      },
+      "roll_off_dumpster_pricing_7_to_10_days": {
+        "10_yard": "$295–$410",
+        "15_yard": "$340–$455",
+        "20_yard": "$380–$515",
+        "30_yard": "$455–$615",
+        "40_yard": "$540–$735",
+        "included_weight_20_yard": "2–3 tons (4,000–6,000 lbs)"
+      },
+      "street_right_of_way_permit": {
+        "permit_authority": "Town of Apex Public Works & Transportation Department — Right-of-Way Encroachment & Street Obstruction Rules",
+        "private_driveway_permit_required": false,
+        "private_driveway_rule": "No Town of Apex permit is required when a roll-off container sits completely within your private driveway and does not block a public sidewalk, greenway crossing, or town street.",
+        "public_street_permit_summary": "Prior approval required from Town of Apex Public Works & Transportation Dept for street placement; minimum 20-ft fire lane clearance",
+        "public_street_permit_details": "Placing a roll-off dumpster on a public street, town cul-de-sac, or public right-of-way in Apex is restricted and requires prior approval from the Town of Apex Public Works & Transportation Department. Street containers must never obstruct fire apparatus access (minimum 20-foot clear roadway width), fire hydrants, mailboxes, or storm grates, and must have reflective markers.",
+        "hoa_driveway_notes": "Planned Apex neighborhoods—including Bella Casa, Scotts Mill, Haddon Hall, Peakway Market, Villages of Apex, Abbington, and Sweetwater—strictly regulate driveway containers. Most HOAs prohibit street placement entirely, require plywood driveway protection, and limit driveway dumpsters to 7–14 days during active roofing or remodeling."
+      },
+      "official_sources": {
+        "municipal_bulk_source_url": "https://www.apexnc.org/279/Bulk-Item-Collection",
+        "landfill_or_permit_source_url": "https://www.wake.gov/departments-government/waste-recycling/facilities/wake-county-solid-waste-landfill/south-wake-landfill/fees-payment-methods-haulers",
+        "all_verified_sources": [
+          {
+            "id": 1,
+            "title": "Town of Apex: Bulk Item Collection & Fees (Ask Apex 919-249-3311)",
+            "url": "https://www.apexnc.org/279/Bulk-Item-Collection",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 2,
+            "title": "Wake County Government: Convenience Center Site 2 (6120 Old Smithfield Rd) & South Wake Multi-Material Facility (6130 Old Smithfield Rd)",
+            "url": "https://www.wake.gov/departments-government/solid-waste-management/facilities/convenience-centers",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 3,
+            "title": "Wake County Government: South Wake Landfill Tipping Fees (6300 Old Smithfield Rd)",
+            "url": "https://www.wake.gov/departments-government/waste-recycling/facilities/wake-county-solid-waste-landfill/south-wake-landfill/fees-payment-methods-haulers",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 4,
+            "title": "LoadUp: Couch, Mattress & Appliance Removal Pricing",
+            "url": "https://goloadup.com/couch-removal/",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 5,
+            "title": "Town of Apex: Yard Waste Collection (Biweekly Schedule Effective Oct 19, 2026)",
+            "url": "https://www.apexnc.org/563/Yard-Waste-Collection",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 4,
+            "title": "Bark US: Local Roll-Off Dumpster Rental Quotes in Apex, NC",
+            "url": "https://www.bark.com/en/us/dumpster-rental/",
+            "accessed": "2026-10-23"
+          },
+          {
+            "id": 5,
+            "title": "LoadUp: Upfront Junk Removal, Furniture & Appliance Hauling Pricing",
+            "url": "https://goloadup.com/",
+            "accessed": "2026-10-23"
+          }
+        ]
+      },
+      "canonical_guides": {
+        "city_bulk_and_junk_removal_url": "https://junkhaulhq.com/junk-removal/apex-nc/",
+        "city_roll_off_dumpster_url": "https://junkhaulhq.com/dumpster-rental/apex-nc/"
+      }
+    },
+    {
+      "city_slug": "atlanta-ga",
+      "city": "Atlanta",
+      "state": "GA",
+      "county": "Fulton & DeKalb Counties",
+      "covered_zips": [
+        "30303",
+        "30305",
+        "30306",
+        "30308",
+        "30309",
+        "30312",
+        "30318",
+        "30324"
+      ],
+      "last_verified": "2026-10-24",
+      "curbside_bulk_pickup": {
+        "program_name": "City of Atlanta Office of Solid Waste Services — Scheduled Bulk Item Collection (ATL311)",
+        "cost_model": "Included in Municipal Solid Waste Rate (Appointment Required via ATL311)",
+        "volume_or_item_limit": "Up to 4 bulky household items per scheduled ATL311 appointment",
+        "c_and_d_remodeling_debris_allowed": "No (Strictly Prohibited)",
+        "how_to_schedule": "Submit a Bulk Collection request online at ATL311.com or call ATL311 at 404-546-0311 (or 3-1-1 inside city limits).",
+        "rules": [
+          "Included for City of Atlanta residential solid waste ratepayers; requires scheduling an advance appointment through ATL311 (online at ATL311.com or by dialing 3-1-1 / 404-546-0311).",
+          "Up to 4 large household items (sofas, tables, mattresses, chairs, or white-goods appliances) collected per scheduled bulk appointment.",
+          "Place bulky items neatly at the curb by 7:00 a.m. on your scheduled collection day—do not block sidewalks, bike lanes, storm drains, or fire hydrants.",
+          "Refrigerators and freezers must be emptied with doors removed for child safety before curbside placement."
+        ],
+        "not_accepted": [
+          "construction, renovation, and demolition debris (drywall, lumber, tile, carpet tear-outs, roofing shingles)",
+          "piles of loose bags or boxed household clutter",
+          "tires, car parts, and batteries",
+          "wet paint, chemicals, and household hazardous waste",
+          "tree trunks or contractor landscaping debris"
+        ]
+      },
+      "landfill_and_transfer_station": {
+        "primary_facility_name": "DeKalb County Seminole Road Landfill, Fulton County Chadwick Road Landfill & Live Thrive CHaRM",
+        "facility_address": "Seminole Rd Landfill: 4203 Clevemont Rd, Ellenwood, GA 30294 | Chadwick Rd Landfill: 1410 Chadwick Rd, Roswell, GA 30075 | CHaRM: 1110 Hill St SE, Atlanta, GA 30315",
+        "official_tipping_rate_usd_per_ton_midpoint": 53.5,
+        "official_tipping_rate_description": "~$45.00-$62.00/ton at DeKalb County Seminole Rd & Fulton County Chadwick Rd Landfills ($20/mattress at Live Thrive CHaRM)",
+        "hauler_overage_rate_per_ton": "$60 to $80 per ton above your container’s included weight limit",
+        "resident_self_haul_policy": "Live Thrive CHaRM (1110 Hill St SE) accepts mattresses ($20), electronics, appliances, paint, and tires by appointment"
+      },
+      "roll_off_dumpster_pricing_7_to_10_days": {
+        "10_yard": "$320–$440",
+        "15_yard": "$355–$495",
+        "20_yard": "$390–$550",
+        "30_yard": "$470–$660",
+        "40_yard": "$565–$775",
+        "included_weight_20_yard": "2–3 tons (4,000–6,000 lbs)"
+      },
+      "street_right_of_way_permit": {
+        "permit_authority": "City of Atlanta Department of Transportation (ATLDOT) — Office of Enterprise Assets & Right-of-Way Permitting",
+        "private_driveway_permit_required": false,
+        "private_driveway_rule": "No City of Atlanta permit is required when your roll-off dumpster sits completely on your private driveway without encroaching onto a public sidewalk, tree lawn, bike lane, or street.",
+        "public_street_permit_summary": "ATLDOT Right-of-Way / Temporary Container Permit required for street, curb lane, or sidewalk placement with reflective barricades and hauler insurance",
+        "public_street_permit_details": "Placing a roll-off container on a public street, curb lane, or sidewalk requires a City of Atlanta Department of Transportation (ATLDOT) Right-of-Way / Temporary Container Permit with reflective traffic cones/barricades and proof of hauler liability insurance.",
+        "hoa_driveway_notes": "Atlanta historic districts (Inman Park, Grant Park, Druid Hills) and gated Buckhead/Sandy Springs HOAs enforce strict visual screening, tree-canopy clearance, and 7- to 10-day driveway placement rules."
+      },
+      "official_sources": {
+        "municipal_bulk_source_url": "https://www.atl311.com/",
+        "landfill_or_permit_source_url": "https://www.atl311.com/",
+        "all_verified_sources": [
+          {
+            "id": 1,
+            "title": "ATL311 & City of Atlanta Department of Public Works: Solid Waste & Bulk Collection",
+            "url": "https://www.atl311.com/",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 2,
+            "title": "Live Thrive Atlanta: CHaRM (Center for Hard to Recycle Materials — 1110 Hill St SE)",
+            "url": "https://livethrive.org/charm/",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 3,
+            "title": "DeKalb County Sanitation Division: Seminole Road Landfill & Solid Waste Facilities",
+            "url": "https://dekalbcountyga.gov/departments/public-works/solid-waste-management",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 4,
+            "title": "LoadUp: Upfront Junk Removal & Hauling Pricing in Atlanta, GA",
+            "url": "https://goloadup.com/",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 4,
+            "title": "Bark US: Local Roll-Off Dumpster Rental Quotes in Atlanta, GA",
+            "url": "https://www.bark.com/en/us/dumpster-rental/",
+            "accessed": "2026-10-24"
+          }
+        ]
+      },
+      "canonical_guides": {
+        "city_bulk_and_junk_removal_url": "https://junkhaulhq.com/junk-removal/atlanta-ga/",
+        "city_roll_off_dumpster_url": "https://junkhaulhq.com/dumpster-rental/atlanta-ga/"
+      }
+    },
+    {
+      "city_slug": "austin-tx",
+      "city": "Austin",
+      "state": "TX",
+      "county": "Travis County",
+      "covered_zips": [
+        "78701",
+        "78702",
+        "78703",
+        "78704",
+        "78705",
+        "78721",
+        "78723",
+        "78731",
+        "78741",
+        "78744",
+        "78745",
+        "78748",
+        "78749",
+        "78750",
+        "78751",
+        "78753",
+        "78757",
+        "78758",
+        "78759"
+      ],
+      "last_verified": "2026-10-24",
+      "curbside_bulk_pickup": {
+        "program_name": "Austin Resource Recovery On-Demand Bulk Collection",
+        "cost_model": "Included in Austin Resource Recovery Residential Rate (Up to 3 On-Demand Pickups/Year)",
+        "volume_or_item_limit": "Up to 3 On-Demand Bulk Collections per calendar year (sorted into up to 3 piles at curb by 5:30 a.m.)",
+        "c_and_d_remodeling_debris_allowed": "No (Strictly Prohibited)",
+        "how_to_schedule": "Austin Recycles app, online, or Austin 3-1-1 (512-974-2000).",
+        "rules": [
+          "For residential customers (single-family homes up to fourplexes).",
+          "Up to three collections per calendar year; extra collections are fee-based by estimated weight.",
+          "Appointment required; items are not picked up without one.",
+          "Out at the curb by 5:30 a.m. on the appointment date.",
+          "Separate piles: metal/rigid plastics, non-metal items, tires (rims removed, max 8).",
+          "Keep items 5 feet from carts, mailbox, fences, meters, hydrants and parked cars; not in alleys; don't bag or box items.",
+          "Accepted: appliances (doors removed), household carpet, doors, furniture, lawn mowers (gas/oil removed), nail-free lumber, pallets, rolled fencing."
+        ],
+        "not_accepted": [
+          "boats",
+          "trailers",
+          "motorcycles",
+          "brush",
+          "cardboard boxes",
+          "mirrors",
+          "sheet glass and remodeling debris",
+          "tile",
+          "hazardous materials",
+          "household trash"
+        ]
+      },
+      "landfill_and_transfer_station": {
+        "primary_facility_name": "Travis County Permitted Landfills (Austin Community Landfill / Texas Disposal Systems) & ARR Recycle and Reuse Center",
+        "facility_address": "ARR Recycle & Reuse Drop-Off Center: 2514 Business Center Dr, Austin, TX 78744 (By Appointment Only) | Note: City of Austin FM 812 Landfill is permanently closed",
+        "official_tipping_rate_usd_per_ton_midpoint": 60.0,
+        "official_tipping_rate_description": "~$52.00-$68.00/ton at private Travis County regional landfills (WM Austin Community & Texas Disposal Systems; FM 812 closed)",
+        "hauler_overage_rate_per_ton": "$65 to $85 per ton above your container’s included weight limit",
+        "resident_self_haul_policy": "Free by appointment at ARR Recycle & Reuse Drop-Off Center (2514 Business Center Dr) for appliances, scrap metal, e-waste & HHW ($6/tire; no furniture or mattresses)"
+      },
+      "roll_off_dumpster_pricing_7_to_10_days": {
+        "10_yard": "$325–$445",
+        "15_yard": "$360–$495",
+        "20_yard": "$395–$555",
+        "30_yard": "$475–$665",
+        "40_yard": "$570–$780",
+        "included_weight_20_yard": "2–3 tons (4,000–6,000 lbs)"
+      },
+      "street_right_of_way_permit": {
+        "permit_authority": "Austin Transportation and Public Works (ATPW) — Right-of-Way (ROW) Management Division via Austin Build + Connect (AB+C) Portal",
+        "private_driveway_permit_required": false,
+        "private_driveway_rule": "No City of Austin ROW permit is required when your roll-off dumpster sits 100% on your private driveway or property behind the property line without encroaching on a sidewalk, alley, or street.",
+        "public_street_permit_summary": "ATPW Right-of-Way Dumpster Permit via Austin Build + Connect (AB+C) portal required for street placement; requires commercial liability insurance + $10,000 ROW Bond on file",
+        "public_street_permit_details": "Placing a roll-off dumpster in the public Right-of-Way (street, curb lane, or sidewalk) requires an ATPW Right-of-Way Dumpster Permit through the Austin Build + Connect (AB+C) portal. Per ATPW Right-of-Way Contractor rules, pulling a Dumpster ROW Permit requires active commercial liability insurance and a $10,000 Right-of-Way Bond on file with the City (note: FY 2027 ROW permit fee updates took effect October 1, 2026). Active closures must also be reported via Austin 3-1-1 ('Activate/Deactivate Work Zone').",
+        "hoa_driveway_notes": "Austin HOAs and PUDs in Circle C Ranch, Steiner Ranch, Mueller, Avery Ranch, and Barton Creek restrict driveway dumpster duration (typically 7–14 days) and prohibit unscreened street placement."
+      },
+      "official_sources": {
+        "municipal_bulk_source_url": "https://www.austintexas.gov/resource-recovery/programs/demand-bulk-brush-and-household-hazardous-waste-collection",
+        "landfill_or_permit_source_url": "https://www.austintexas.gov/transportation-public-works/divisions/right-way-management",
+        "all_verified_sources": [
+          {
+            "id": 1,
+            "title": "Austin Resource Recovery: On-demand Bulk, Brush, HHW and Textiles Collection",
+            "url": "https://www.austintexas.gov/resource-recovery/programs/demand-bulk-brush-and-household-hazardous-waste-collection",
+            "accessed": "2026-10-21"
+          },
+          {
+            "id": 2,
+            "title": "Austin Resource Recovery: Recycle and Reuse Center",
+            "url": "https://www.austintexas.gov/resource-recovery/locations/recycle-and-reuse-drop-center",
+            "accessed": "2026-10-21"
+          },
+          {
+            "id": 1,
+            "title": "City of Austin (ATPW): Right-of-Way Management & FY 2027 Permit Updates",
+            "url": "https://www.austintexas.gov/transportation-public-works/divisions/right-way-management",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 2,
+            "title": "City of Austin (ATPW): Right-of-Way Contractors — Insurance & $10K Bond Requirements for Dumpsters",
+            "url": "https://www.austintexas.gov/transportation-public-works/right-way-contractors",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 5,
+            "title": "Bark US: Local Roll-Off Dumpster Rental Quotes in Austin, TX",
+            "url": "https://www.bark.com/en/us/dumpster-rental/",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 6,
+            "title": "LoadUp: Upfront Junk Removal & Hauling Pricing",
+            "url": "https://goloadup.com/",
+            "accessed": "2026-10-24"
+          }
+        ]
+      },
+      "canonical_guides": {
+        "city_bulk_and_junk_removal_url": "https://junkhaulhq.com/junk-removal/austin-tx/",
+        "city_roll_off_dumpster_url": "https://junkhaulhq.com/dumpster-rental/austin-tx/"
+      }
+    },
+    {
+      "city_slug": "cary-nc",
+      "city": "Cary",
+      "state": "NC",
+      "county": "Wake County",
+      "covered_zips": [
+        "27511",
+        "27512",
+        "27513",
+        "27518",
+        "27519"
+      ],
+      "last_verified": "2026-10-24",
+      "curbside_bulk_pickup": {
+        "program_name": "Town of Cary Curbside Bulky Trash & Appliance Collection (By Appointment)",
+        "cost_model": "Paid Per-Item Fee via Cary 311 ($15 first item + $8 each additional; $22/white-good appliance through Dec 31, 2026)",
+        "volume_or_item_limit": "Scheduled by appointment via Cary 311 ($15 first item + $8 each additional item)",
+        "c_and_d_remodeling_debris_allowed": "No (Strictly Prohibited)",
+        "how_to_schedule": "Dial 311 (or 919-469-4000 outside Cary), use the Cary Collects app, or submit an online request at carync.gov.",
+        "rules": [
+          "Bulky trash (furniture, gas grills, large TVs, bicycles, swing sets too large for a rollout cart) is collected at the curb by appointment only.",
+          "Curbside bulky trash fee is $15 for the first item and $8 for each additional item collected during the same trip.",
+          "White goods / appliances (refrigerators, washers, dryers, dishwashers) can also be scheduled for curbside collection for a fee.",
+          "Place items at the curb away from light poles, mailboxes, fire hydrants, and parked vehicles."
+        ],
+        "not_accepted": [
+          "contractor, remodeling, or demolition debris",
+          "stumps, logs, and limbs over 8 inches thick or 8 feet long",
+          "tires and lead-acid batteries",
+          "earth, rocks, concrete, and masonry",
+          "hazardous waste, solvents, and fuels"
+        ]
+      },
+      "landfill_and_transfer_station": {
+        "primary_facility_name": "Wake County South Wake Landfill (Apex/Cary Border)",
+        "facility_address": "6300 Old Smithfield Road, Apex, NC 27539",
+        "official_tipping_rate_usd_per_ton_midpoint": 37.0,
+        "official_tipping_rate_description": "$37.00/ton MSW at Wake County South Wake Landfill ($15/mattress shredder fee)",
+        "hauler_overage_rate_per_ton": "$55 to $75 per ton above your rental’s included weight allowance",
+        "resident_self_haul_policy": "Town of Cary Citizen's Convenience Center (313 N. Dixon Ave, transitions Jan 1, 2027) or free residential drop-off at Wake County Site 3 (266 Aviation Pkwy) & Site 2 (6120 Old Smithfield Rd)"
+      },
+      "roll_off_dumpster_pricing_7_to_10_days": {
+        "10_yard": "$310–$420",
+        "15_yard": "$350–$465",
+        "20_yard": "$390–$530",
+        "30_yard": "$470–$635",
+        "40_yard": "$560–$750",
+        "included_weight_20_yard": "2–3 tons (4,000–6,000 lbs)"
+      },
+      "street_right_of_way_permit": {
+        "permit_authority": "Town of Cary 311 / Transportation & Facilities Department (Right-of-Way Encroachment & Street Obstruction Rules)",
+        "private_driveway_permit_required": false,
+        "private_driveway_rule": "No Town of Cary municipal permit is required when a roll-off container sits completely within your private residential driveway without blocking the sidewalk or extending past the curb line.",
+        "public_street_permit_summary": "Public street placement generally prohibited without prior Right-of-Way authorization via Town of Cary 311 (919-469-4000)",
+        "public_street_permit_details": "The Town of Cary strictly regulates obstructions in public streets, bike lanes, and town rights-of-way. Placing a roll-off dumpster on a public street in Cary is generally prohibited unless no off-street driveway space exists and prior Right-of-Way authorization is approved through Town of Cary 311 (919-469-4000). Unpermitted street containers are subject to immediate removal orders and daily town fines.",
+        "hoa_driveway_notes": "Cary has some of the strictest HOA covenants in Wake County—including Preston, MacGregor Downs, Lochmere, Amberly, Regency, Carpenter Village, and Highcroft. Most Cary HOAs require dumpsters to sit on driveway pads (never on the street or common townhome parking), mandate plywood protection boards, and cap visible container placement at 7 to 14 days without an approved Architectural Request."
+      },
+      "official_sources": {
+        "municipal_bulk_source_url": "https://www.carync.gov/services-publications/garbage-recycling-yard-waste/garbage-collection",
+        "landfill_or_permit_source_url": "https://www.wake.gov/departments-government/waste-recycling/facilities/wake-county-solid-waste-landfill/south-wake-landfill/fees-payment-methods-haulers",
+        "all_verified_sources": [
+          {
+            "id": 1,
+            "title": "Town of Cary: Garbage, Bulky Trash & Appliance Collection",
+            "url": "https://www.carync.gov/services-publications/garbage-recycling-yard-waste/garbage-collection",
+            "accessed": "2026-10-23"
+          },
+          {
+            "id": 2,
+            "title": "Town of Cary: Citizen’s Convenience Center Hours, Fees & 2026–2027 Transition",
+            "url": "https://www.carync.gov/services-publications/garbage-recycling-yard-waste/citizen-s-convenience-center",
+            "accessed": "2026-10-23"
+          },
+          {
+            "id": 3,
+            "title": "Town of Cary Policy Statement: Solid Waste Collection & Bulky Waste Limitations",
+            "url": "https://www.carync.gov/mayor-council/town-policies/solid-waste-collection",
+            "accessed": "2026-10-23"
+          },
+          {
+            "id": 4,
+            "title": "Wake County Government: Convenience Centers",
+            "url": "https://www.wake.gov/departments-government/solid-waste-management/facilities/convenience-centers",
+            "accessed": "2026-10-23"
+          },
+          {
+            "id": 5,
+            "title": "LoadUp: Couch, Mattress & Appliance Removal Pricing",
+            "url": "https://goloadup.com/couch-removal/",
+            "accessed": "2026-10-23"
+          },
+          {
+            "id": 1,
+            "title": "Wake County Government: South Wake Landfill Tipping Fees",
+            "url": "https://www.wake.gov/departments-government/waste-recycling/facilities/wake-county-solid-waste-landfill/south-wake-landfill/fees-payment-methods-haulers",
+            "accessed": "2026-10-23"
+          },
+          {
+            "id": 5,
+            "title": "Bark US: Local Roll-Off Dumpster Rental Quotes & Size Guide",
+            "url": "https://www.bark.com/en/us/dumpster-rental/",
+            "accessed": "2026-10-23"
+          }
+        ]
+      },
+      "canonical_guides": {
+        "city_bulk_and_junk_removal_url": "https://junkhaulhq.com/junk-removal/cary-nc/",
+        "city_roll_off_dumpster_url": "https://junkhaulhq.com/dumpster-rental/cary-nc/"
+      }
+    },
+    {
+      "city_slug": "charlotte-nc",
+      "city": "Charlotte",
+      "state": "NC",
+      "county": "Mecklenburg County",
+      "covered_zips": [
+        "28202",
+        "28203",
+        "28204",
+        "28205",
+        "28207",
+        "28208",
+        "28209",
+        "28210",
+        "28211",
+        "28212",
+        "28213",
+        "28214",
+        "28215",
+        "28216",
+        "28217",
+        "28226",
+        "28227",
+        "28262",
+        "28269",
+        "28270",
+        "28273",
+        "28277",
+        "28278",
+        "28078"
+      ],
+      "last_verified": "2026-10-24",
+      "curbside_bulk_pickup": {
+        "program_name": "City of Charlotte Solid Waste Services bulky item collection (scheduled)",
+        "cost_model": "Included in Municipal Solid Waste Service (Scheduled via CLT+ App or 311)",
+        "volume_or_item_limit": "Scheduled curbside bulky item collection by appointment (items placed at curb no earlier than day before collection)",
+        "c_and_d_remodeling_debris_allowed": "No (Strictly Prohibited)",
+        "how_to_schedule": "Call 311 (704-336-7600), use the CLT+ app, or request online.",
+        "rules": [
+          "You must currently receive City of Charlotte garbage collection to be eligible.",
+          "Items placed at the curb without scheduling will not be collected.",
+          "Set items out no later than 6 a.m. on collection day and no sooner than the day before.",
+          "Leave 3 feet between items.",
+          "Cancel or change by calling 311 by noon the business day before pickup."
+        ],
+        "not_accepted": [
+          "contractor debris",
+          "concrete",
+          "cast iron tubs",
+          "broken glass shards",
+          "chain link fencing"
+        ]
+      },
+      "landfill_and_transfer_station": {
+        "primary_facility_name": "Mecklenburg County Foxhole Landfill & Full-Service Disposal Centers",
+        "facility_address": "Foxhole Landfill: 17131 Lancaster Hwy, Charlotte, NC 28277 | Compost Central: 140 Valleydale Rd | Hickory Grove: 8007 Pence Rd | North Mecklenburg: 12300 N. Statesville Rd, Huntersville",
+        "official_tipping_rate_usd_per_ton_midpoint": 60.0,
+        "official_tipping_rate_description": "$60.00/ton weighed loads ($35.00 minimum) at Mecklenburg County Foxhole Landfill (17131 Lancaster Hwy)",
+        "hauler_overage_rate_per_ton": "$60 to $80 per ton above your container’s included weight allowance",
+        "resident_self_haul_policy": "Mecklenburg County Full-Service Disposal Centers (Foxhole, Compost Central, Hickory Grove, North Mecklenburg) charge $15 flat fee for residential bulky load (<3 cu yd) or $25 C&D load"
+      },
+      "roll_off_dumpster_pricing_7_to_10_days": {
+        "10_yard": "$310–$425",
+        "15_yard": "$350–$470",
+        "20_yard": "$385–$535",
+        "30_yard": "$465–$645",
+        "40_yard": "$555–$755",
+        "included_weight_20_yard": "2–3 tons (4,000–6,000 lbs)"
+      },
+      "street_right_of_way_permit": {
+        "permit_authority": "Charlotte Department of Transportation (CDOT) — Right-of-Way Use Permit via the Cityworks Application Portal",
+        "private_driveway_permit_required": false,
+        "private_driveway_rule": "No CDOT permit is required when a roll-off container sits completely within your private driveway or private property and does not block a public sidewalk, planting strip, or street.",
+        "public_street_permit_summary": "CDOT Right-of-Way Use Permit via Cityworks Portal required (72-hour review, application fee + daily fee, and WATCH traffic control compliance)",
+        "public_street_permit_details": "Contractors, citizens, and haulers wanting to place a storage container or dumpster in a traffic lane, planting strip, sidewalk, or public Right-of-Way (between 5 minutes and 30 days) must obtain a CDOT Right-of-Way Use Permit via the Cityworks Portal ('Use Permit'). CDOT reviews and issues permits within 72 hours of initial contact. Applications require a non-refundable application fee plus a daily fee, compliance with CDOT's Work Area Traffic Control Handbook (WATCH) diagrams, and Park It! approval if metered spaces are impacted.",
+        "hoa_driveway_notes": "Charlotte HOAs in Ballantyne, Myers Park, SouthPark, Providence Country Club, Highland Creek, and Berewick typically restrict driveway dumpsters to 7–14 days during active renovations and require plywood boards under steel rollers."
+      },
+      "official_sources": {
+        "municipal_bulk_source_url": "https://www.charlottenc.gov/Services/Trash-and-Recycling/Collection-Guidelines",
+        "landfill_or_permit_source_url": "https://www.charlottenc.gov/Services/Permits/Right-of-Way",
+        "all_verified_sources": [
+          {
+            "id": 1,
+            "title": "City of Charlotte: Collection Guidelines (Bulky Waste)",
+            "url": "https://www.charlottenc.gov/Services/Trash-and-Recycling/Collection-Guidelines",
+            "accessed": "2026-10-21"
+          },
+          {
+            "id": 2,
+            "title": "City of Charlotte: Bulky Item Collection Eligibility (PDF)",
+            "url": "https://www.charlottenc.gov/files/sharedassets/city/v/4/services/trash-and-recycling/documents/bulky-item-collection-eligibility.pdf",
+            "accessed": "2026-10-21"
+          },
+          {
+            "id": 3,
+            "title": "Mecklenburg County: Foxhole Disposal and Recycling Center",
+            "url": "https://wipeoutwaste.mecknc.gov/facility/foxhole-disposal-and-recycling-center",
+            "accessed": "2026-10-21"
+          },
+          {
+            "id": 4,
+            "title": "Mecklenburg County: Recycling and Disposal Centers",
+            "url": "https://wipeoutwaste.mecknc.gov/where-can-i-recycle",
+            "accessed": "2026-10-21"
+          },
+          {
+            "id": 5,
+            "title": "Mecklenburg County: Residential Fee Information, July 2024–June 2025 (PDF)",
+            "url": "https://meckwowambassador.com/wp-content/uploads/2024/07/ResFees.pdf",
+            "accessed": "2026-10-21"
+          },
+          {
+            "id": 1,
+            "title": "City of Charlotte (CDOT): Right-of-Way Use Permits & Cityworks Portal",
+            "url": "https://www.charlottenc.gov/Services/Permits/Right-of-Way",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 5,
+            "title": "Bark US: Local Roll-Off Dumpster Rental Quotes in Charlotte, NC",
+            "url": "https://www.bark.com/en/us/dumpster-rental/",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 6,
+            "title": "LoadUp: Upfront Junk Removal & Hauling Pricing",
+            "url": "https://goloadup.com/",
+            "accessed": "2026-10-24"
+          }
+        ]
+      },
+      "canonical_guides": {
+        "city_bulk_and_junk_removal_url": "https://junkhaulhq.com/junk-removal/charlotte-nc/",
+        "city_roll_off_dumpster_url": "https://junkhaulhq.com/dumpster-rental/charlotte-nc/"
+      }
+    },
+    {
+      "city_slug": "dallas-tx",
+      "city": "Dallas",
+      "state": "TX",
+      "county": "Dallas County",
+      "covered_zips": [
+        "75201",
+        "75204",
+        "75206",
+        "75214",
+        "75219",
+        "75225",
+        "75230",
+        "75248"
+      ],
+      "last_verified": "2026-10-24",
+      "curbside_bulk_pickup": {
+        "program_name": "City of Dallas Sanitation Services — Monthly Brush & Bulky Item Collection (BABIC)",
+        "cost_model": "Included in Municipal Sanitation Rate (Monthly Brush & Bulky Item Collection - BABIC)",
+        "volume_or_item_limit": "Up to 10 cubic yards once per month during assigned collection week (set out Thu before through 7:00 a.m. Mon)",
+        "c_and_d_remodeling_debris_allowed": "No (Strictly Prohibited)",
+        "how_to_schedule": "Collected automatically during your assigned monthly BABIC week; check your week on DallasCityHall.com or call Dallas 3-1-1 (214-670-3111).",
+        "rules": [
+          "Available once per month for City of Dallas residential sanitation customers during your designated collection week (1st, 2nd, 3rd, or 4th Monday week).",
+          "Maximum volume limit of 10 cubic yards per monthly collection cycle (combined brush and bulky furniture/appliances); oversize piles incur code enforcement fees.",
+          "Place items at the front curb no earlier than 7:00 a.m. on the Thursday before your collection week and no later than 7:00 a.m. on Monday of your collection week.",
+          "Keep bulky piles at least 5 feet away from automated roll carts, mailboxes, water meters, fences, trees, and parked vehicles; do not block sidewalks or alleys.",
+          "Accepted items include household furniture, mattresses, appliances (refrigerator/freezer doors must be removed), carpet rolls, and tree limbs."
+        ],
+        "not_accepted": [
+          "construction and remodeling debris (drywall, tile, lumber, roofing shingles, bricks, concrete)",
+          "tires",
+          "electronics and TVs",
+          "household hazardous waste",
+          "commercial or contractor waste",
+          "loose bagged household trash"
+        ]
+      },
+      "landfill_and_transfer_station": {
+        "primary_facility_name": "McCommas Bluff Landfill & Bachman / Fair Oaks Transfer Stations (City of Dallas Sanitation Services)",
+        "facility_address": "McCommas Bluff Landfill: 5100 Youngblood Rd, Dallas, TX 75241 | Bachman Transfer Station: 9500 Harry Hines Blvd, Dallas, TX 75220 | Fair Oaks Transfer Station: 7677 Fair Oaks Ave, Dallas, TX 75231",
+        "official_tipping_rate_usd_per_ton_midpoint": 41.5,
+        "official_tipping_rate_description": "~$38.00-$45.00/ton commercial rate at McCommas Bluff Landfill (5100 Youngblood Rd; $20 unsecured load penalty)",
+        "hauler_overage_rate_per_ton": "$55 to $75 per ton above your container’s included weight limit",
+        "resident_self_haul_policy": "Free residential self-haul drop-off in non-commercial vehicles (trailers <=15 ft) with valid TX driver's license & matching Dallas utility bill at McCommas Bluff Landfill, Bachman Transfer Station, and Fair Oaks Transfer Station"
+      },
+      "roll_off_dumpster_pricing_7_to_10_days": {
+        "10_yard": "$315–$435",
+        "15_yard": "$350–$485",
+        "20_yard": "$385–$540",
+        "30_yard": "$465–$650",
+        "40_yard": "$555–$760",
+        "included_weight_20_yard": "2–3 tons (4,000–6,000 lbs)"
+      },
+      "street_right_of_way_permit": {
+        "permit_authority": "City of Dallas Department of Public Works — Right-of-Way (ROW) Management Division (ROW Permit Management System)",
+        "private_driveway_permit_required": false,
+        "private_driveway_rule": "No City of Dallas permit is required when your roll-off container sits 100% on your private driveway or private property behind the sidewalk without blocking an alley, sidewalk, or street lane.",
+        "public_street_permit_summary": "City of Dallas Department of Public Works ROW Street/Lane Closure & Traffic Control Permit (rowmanagement.dallascityhall.com) + state-approved reflective barricades",
+        "public_street_permit_details": "Placing a roll-off dumpster on a public street, curb lane, alley, or sidewalk requires a City of Dallas Right-of-Way (ROW) Street/Lane Closure & Traffic Control Permit submitted via rowmanagement.dallascityhall.com (Phone: 214-948-4290), along with a Traffic Control Plan and state-approved reflective barricades/cones.",
+        "hoa_driveway_notes": "Dallas HOAs and conservation districts in Lakewood, Kessler Park, Preston Hollow, Lake Highlands, and Trinity Groves enforce strict driveway duration limits (typically 7–10 days) and prohibit blocking narrow rear utility alleys."
+      },
+      "official_sources": {
+        "municipal_bulk_source_url": "https://dallascityhall.com/departments/sanitation/Pages/brush_and_bulky.aspx",
+        "landfill_or_permit_source_url": "https://dallascityhall.com/departments/sanitation/Pages/brush_and_bulky.aspx",
+        "all_verified_sources": [
+          {
+            "id": 1,
+            "title": "City of Dallas Sanitation Services: Brush and Bulky Item Collection (BABIC) Guidelines",
+            "url": "https://dallascityhall.com/departments/sanitation/Pages/brush_and_bulky.aspx",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 2,
+            "title": "City of Dallas Sanitation Services: McCommas Bluff Landfill & Transfer Stations",
+            "url": "https://dallascityhall.com/departments/sanitation/Pages/mccommas_bluff.aspx",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 3,
+            "title": "City of Dallas Department of Public Works: Right-of-Way (ROW) Management Permits",
+            "url": "https://dallascityhall.com/departments/public-works/Pages/right-of-way-management.aspx",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 4,
+            "title": "LoadUp: Upfront Junk Removal & Bulky Item Hauling in Dallas, TX",
+            "url": "https://goloadup.com/",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 5,
+            "title": "Texas Commission on Environmental Quality (TCEQ): Municipal Solid Waste Landfills & Transfer Stations",
+            "url": "https://www.tceq.texas.gov/permitting/waste_permits/msw_permits",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 4,
+            "title": "Bark US: Local Roll-Off Dumpster Rental Quotes in Dallas, TX",
+            "url": "https://www.bark.com/en/us/dumpster-rental/",
+            "accessed": "2026-10-24"
+          }
+        ]
+      },
+      "canonical_guides": {
+        "city_bulk_and_junk_removal_url": "https://junkhaulhq.com/junk-removal/dallas-tx/",
+        "city_roll_off_dumpster_url": "https://junkhaulhq.com/dumpster-rental/dallas-tx/"
+      }
+    },
+    {
+      "city_slug": "denver-co",
+      "city": "Denver",
+      "state": "CO",
+      "county": "Denver County",
+      "covered_zips": [
+        "80202",
+        "80203",
+        "80205",
+        "80206",
+        "80209",
+        "80210",
+        "80211",
+        "80220"
+      ],
+      "last_verified": "2026-10-24",
+      "curbside_bulk_pickup": {
+        "program_name": "City and County of Denver DOTI — Solid Waste Management Large Item Pickup (LIP)",
+        "cost_model": "Included in Denver DOTI Residential Solid Waste Rate (4-Week Large Item Pickup - LIP Cycle)",
+        "volume_or_item_limit": "Up to 5 large household furniture items and 10 bags (<50 lbs each, <=4 ft) every 4 weeks on scheduled LIP cycle; mattresses must be wrapped in plastic",
+        "c_and_d_remodeling_debris_allowed": "No (Strictly Prohibited)",
+        "how_to_schedule": "Follow your district LIP calendar on the Denver Trash and Recycling mobile app, online at DenverGov.org/TrashSchedule, or call Denver 3-1-1 (720-913-1311).",
+        "rules": [
+          "Available to City and County of Denver residential Solid Waste customers on your designated Large Item Pickup (LIP) cycle on your regular trash day.",
+          "Collects up to 5 large household items (furniture, wrapped mattresses/box springs, rugs, exercise equipment, bundled branches <=4 ft) plus up to 10 extra bags (max 32 gal / 50 lbs each).",
+          "Set items out by 6:00 a.m. on your scheduled collection day at least 2 feet away from carts, cars, poles, and fences; storing bulky items in the public right-of-way before collection day is cited as illegal dumping.",
+          "Mattresses and box springs set out for LIP must be completely bagged and wrapped in plastic."
+        ],
+        "not_accepted": [
+          "construction, demolition, and remodeling materials (concrete, brick, drywall, lumber, fencing, pallets, tile)",
+          "appliances (refrigerators, freezers, washers, dryers, water heaters)",
+          "electronics and TVs (e-waste is banned from Colorado landfills)",
+          "tires, automotive parts, paint, and hazardous materials",
+          "unbundled branches, tree stumps, dirt, and sod"
+        ]
+      },
+      "landfill_and_transfer_station": {
+        "primary_facility_name": "Denver Arapahoe Disposal Site (DADS Landfill) & Cherry Creek Recycling and Compost Drop-Off",
+        "facility_address": "DADS Landfill: 3500 S Gun Club Rd, Aurora, CO 80018 | Cherry Creek Drop-Off: 7400 Cherry Creek S Dr (near 7301 E Jewell Ave), Denver, CO 80231",
+        "official_tipping_rate_usd_per_ton_midpoint": 70.0,
+        "official_tipping_rate_description": "~$55.00-$85.00/ton commercial/self-haul gate rate at Denver Arapahoe Disposal Site (DADS Landfill, 3500 S Gun Club Rd, Aurora)",
+        "hauler_overage_rate_per_ton": "$65 to $85 per ton above your container’s included weight limit",
+        "resident_self_haul_policy": "Free recycling and compost drop-off for Denver residents at Cherry Creek Recycling & Compost Drop-Off (7400 Cherry Creek S Dr; no landfill trash or C&D)"
+      },
+      "roll_off_dumpster_pricing_7_to_10_days": {
+        "10_yard": "$330–$450",
+        "15_yard": "$365–$505",
+        "20_yard": "$405–$565",
+        "30_yard": "$485–$675",
+        "40_yard": "$580–$790",
+        "included_weight_20_yard": "2–3 tons (4,000–6,000 lbs)"
+      },
+      "street_right_of_way_permit": {
+        "permit_authority": "City and County of Denver Department of Transportation & Infrastructure (DOTI) — Right-of-Way Services (Street Occupancy Permits)",
+        "private_driveway_permit_required": false,
+        "private_driveway_rule": "No Denver DOTI permit is required when your roll-off container fits 100% on your private driveway or private parking pad off the alley without encroaching into the public alley, sidewalk, or street.",
+        "public_street_permit_summary": "Denver DOTI Street Occupancy Permit via E-Permits + Street Occupancy Request Worksheet + Traffic Control Plan (5-10 business day review; $500 fine for unpermitted street occupancy)",
+        "public_street_permit_details": "Placing a roll-off dumpster in any Denver public street, alley, or right-of-way requires a DOTI Street Occupancy Permit submitted online via E-Permits along with a DOTI Street Occupancy Request Worksheet and a Traffic Control Plan (TCP). Allow 5 business days for local residential streets (10 days for collectors/arterials; Cherry Creek North requires attending the CCN BID coordination meeting). Unpermitted ROW occupancy carries a $500 non-compliance fine.",
+        "hoa_driveway_notes": "HOAs in Central Park (Stapleton), Green Valley Ranch, Lowry, and Cherry Creek North enforce strict street/alley staging rules and limit private pad containers to 7–14 days."
+      },
+      "official_sources": {
+        "municipal_bulk_source_url": "https://www.denvergov.org/My-Property/Recycle-Compost-Trash/Large-Item-Pickup",
+        "landfill_or_permit_source_url": "https://www.denvergov.org/My-Property/Recycle-Compost-Trash/Large-Item-Pickup",
+        "all_verified_sources": [
+          {
+            "id": 1,
+            "title": "City and County of Denver (DOTI): Large Item Pickup (LIP) Schedule & Guidelines",
+            "url": "https://www.denvergov.org/My-Property/Recycle-Compost-Trash/Large-Item-Pickup",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 2,
+            "title": "City and County of Denver: Cherry Creek Recycling and Compost Drop-off",
+            "url": "https://www.denvergov.org/My-Property/Recycle-Compost-Trash/Recycle/Cherry-Creek-Recycling-and-Compost-Drop-off",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 3,
+            "title": "City and County of Denver (DOTI): Right-of-Way Street Occupancy Permits",
+            "url": "https://denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Transportation-and-Infrastructure/Programs-Services/Right-of-Way-Services/Street-Occupancy",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 4,
+            "title": "LoadUp: Upfront Junk Removal & Hauling Pricing in Denver, CO",
+            "url": "https://goloadup.com/",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 5,
+            "title": "Colorado Department of Public Health & Environment (CDPHE): Solid Waste & Electronic Waste Landfills Regulation",
+            "url": "https://cdphe.colorado.gov/hm/solid-waste",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 4,
+            "title": "Bark US: Local Roll-Off Dumpster Rental Quotes in Denver, CO",
+            "url": "https://www.bark.com/en/us/dumpster-rental/",
+            "accessed": "2026-10-24"
+          }
+        ]
+      },
+      "canonical_guides": {
+        "city_bulk_and_junk_removal_url": "https://junkhaulhq.com/junk-removal/denver-co/",
+        "city_roll_off_dumpster_url": "https://junkhaulhq.com/dumpster-rental/denver-co/"
+      }
+    },
+    {
+      "city_slug": "durham-nc",
+      "city": "Durham",
+      "state": "NC",
+      "county": "Durham County",
+      "covered_zips": [
+        "27701",
+        "27703",
+        "27704",
+        "27705",
+        "27707",
+        "27712",
+        "27713"
+      ],
+      "last_verified": "2026-10-24",
+      "curbside_bulk_pickup": {
+        "program_name": "City of Durham Solid Waste Management — Curbside Bulky Service (By Request Only)",
+        "cost_model": "Included in Municipal Curbside Service (1 Free Bulky Pickup/Week for Up to 3 Items via Durham One Call)",
+        "volume_or_item_limit": "1 free bulky pickup per week for up to 3 household furniture items (scheduled via Durham One Call 919-560-1200; fee applies for appliances)",
+        "c_and_d_remodeling_debris_allowed": "No (Strictly Prohibited)",
+        "how_to_schedule": "Submit a Bulky Service request online at durhamnc.gov or call Durham One Call at 919-560-1200.",
+        "rules": [
+          "Available to residential properties that receive City of Durham curbside rollout cart garbage collection.",
+          "Eligible households may request one free curbside bulky collection per week for up to 3 bulky items.",
+          "Requests for more than 3 items incur additional fees confirmed prior to collection.",
+          "Items are collected mechanically by boom truck and must be placed at the curb clear of parked cars, mailboxes, fences, utility poles, water meters, and low-hanging wires or tree limbs (no alley collection)."
+        ],
+        "not_accepted": [
+          "building materials and construction debris",
+          "electronics (e-waste) and televisions at the curb",
+          "glass, mirrors, and windows",
+          "car parts, tires, and propane tanks",
+          "wood, pallets, lumber, and tree stumps"
+        ]
+      },
+      "landfill_and_transfer_station": {
+        "primary_facility_name": "City of Durham Waste Disposal & Recycling Center (Transfer Station)",
+        "facility_address": "2115 East Club Boulevard, Durham, NC 27704 (Mon–Fri 7:30 a.m.–4:00 p.m.; Sat 7:30 a.m.–12:00 noon; must enter gate 15 min prior to close; credit/debit card only, no cash)",
+        "official_tipping_rate_usd_per_ton_midpoint": 65.0,
+        "official_tipping_rate_description": "$65.00/ton commercial transfer station rate at City of Durham Waste Disposal & Recycling Center (2115 E. Club Blvd; $20 uncovered load fee)",
+        "hauler_overage_rate_per_ton": "$65 to $85 per ton above your container’s included weight limit",
+        "resident_self_haul_policy": "Non-commercial resident self-haul flat rates at 2115 E. Club Blvd: $5 passenger car, $10 minivan/small SUV, $15 full-size SUV/van, $10-$20 pickup truck by bed height; white goods, scrap metal, HHW & up to 5 tires free"
+      },
+      "roll_off_dumpster_pricing_7_to_10_days": {
+        "10_yard": "$315–$425",
+        "15_yard": "$355–$475",
+        "20_yard": "$395–$540",
+        "30_yard": "$475–$645",
+        "40_yard": "$565–$760",
+        "included_weight_20_yard": "2–3 tons (4,000–6,000 lbs)"
+      },
+      "street_right_of_way_permit": {
+        "permit_authority": "City of Durham Department of Transportation (DDOT) / Public Works Right-of-Way Street Obstruction Permit (Durham One Call: 919-560-1200)",
+        "private_driveway_permit_required": false,
+        "private_driveway_rule": "No City of Durham permit is required if your roll-off dumpster sits completely inside your private property line or driveway and does not block a public sidewalk, alley, or street.",
+        "public_street_permit_summary": "City of Durham DOT (DDOT) / Public Works Right-of-Way Street Obstruction Permit required prior to street placement (Durham One Call 919-560-1200)",
+        "public_street_permit_details": "In historic Durham neighborhoods with narrow lots or no driveways (such as Trinity Park, Old North Durham, Walltown, Lakewood, and Burch Avenue), placing a roll-off container at the curb or in a public street requires a Right-of-Way / Street Obstruction Permit from the City of Durham before delivery. Containers placed on city streets must display high-visibility reflective striping or cones, leave travel lanes clear, and never block fire hydrants, bus stops, or alleys.",
+        "hoa_driveway_notes": "Planned communities in South and North Durham—including Woodcroft, Hope Valley Farms, Treyburn, Croasdaile Farm, and Brightleaf—typically restrict driveway dumpsters to active renovation windows (7–14 days) and prohibit parking roll-off bins on private HOA streets or townhome courts."
+      },
+      "official_sources": {
+        "municipal_bulk_source_url": "https://www.durhamnc.gov/855/Bulky-Services",
+        "landfill_or_permit_source_url": "https://www.durhamnc.gov/898/Disposal-and-Drop-Off-Facilities",
+        "all_verified_sources": [
+          {
+            "id": 1,
+            "title": "City of Durham: Curbside Bulky Service Collections",
+            "url": "https://www.durhamnc.gov/855/Bulky-Services",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 2,
+            "title": "City of Durham: Disposal and Drop-Off Facilities (2115 E. Club Blvd Hours & Fee Schedule)",
+            "url": "https://www.durhamnc.gov/898/Disposal-and-Drop-Off-Facilities",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 3,
+            "title": "LoadUp: Junk, Furniture & Appliance Removal Pricing",
+            "url": "https://goloadup.com/couch-removal/",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 4,
+            "title": "Durham County Government: Solid Waste Convenience Sites & Hours",
+            "url": "https://dconc.gov/General-Services/Waste-and-Recycling/Durham-County-Convenience-Sites",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 3,
+            "title": "Bark US: Local Roll-Off Dumpster Rental Quotes in Durham, NC",
+            "url": "https://www.bark.com/en/us/dumpster-rental/",
+            "accessed": "2026-10-23"
+          },
+          {
+            "id": 4,
+            "title": "LoadUp: Upfront Junk Removal, Furniture & Appliance Hauling Pricing",
+            "url": "https://goloadup.com/",
+            "accessed": "2026-10-23"
+          }
+        ]
+      },
+      "canonical_guides": {
+        "city_bulk_and_junk_removal_url": "https://junkhaulhq.com/junk-removal/durham-nc/",
+        "city_roll_off_dumpster_url": "https://junkhaulhq.com/dumpster-rental/durham-nc/"
+      }
+    },
+    {
+      "city_slug": "houston-tx",
+      "city": "Houston",
+      "state": "TX",
+      "county": "Harris County",
+      "covered_zips": [
+        "77002",
+        "77003",
+        "77004",
+        "77005",
+        "77006",
+        "77007",
+        "77008",
+        "77009",
+        "77017",
+        "77019",
+        "77022",
+        "77024",
+        "77026",
+        "77027",
+        "77028",
+        "77033",
+        "77035",
+        "77041",
+        "77056",
+        "77074",
+        "77077",
+        "77084",
+        "77095"
+      ],
+      "last_verified": "2026-10-24",
+      "curbside_bulk_pickup": {
+        "program_name": "City of Houston Heavy Trash Collection (Bulk & Tree Waste)",
+        "cost_model": "Included in City of Houston SWMD Service (Alternating Monthly Heavy Trash: Even Months = Junk Waste, Odd Months = Tree Waste)",
+        "volume_or_item_limit": "Up to 8 cubic yards per monthly collection in EVEN-numbered months (Feb, Apr, Jun, Aug, Oct, Dec); odd months are strictly tree waste",
+        "c_and_d_remodeling_debris_allowed": "No (Strictly Prohibited at Curb; max 4 cu yd building material excl. shingles/brick/plaster at Depositories)",
+        "how_to_schedule": "No booking needed; look up your heavy trash day with the City's service lookup tool or the HTX App.",
+        "rules": [
+          "City of Houston SWMD alternates monthly curbside collection: Tree Waste is collected in ODD-numbered months (Jan, Mar, May, Jul, Sep, Nov), while Junk Waste (bulky furniture, mattresses, appliances) is collected in EVEN-numbered months (Feb, Apr, Jun, Aug, Oct, Dec)—up to 6 Junk Waste pickups per year.",
+          "Only occupied single-family residential units (and multi-family up to 8 units) receiving City service are eligible.",
+          "Set items out between 6 p.m. the Friday before and 7 a.m. on your scheduled collection day, just behind the curb.",
+          "Maximum 8 cubic yards per set-out (up to 4 cubic yards of resident-generated building material, excluding roofing shingles, brick, and plaster).",
+          "Accepted: furniture, bundled carpet, mattresses and box springs, toilets, bicycles, stoves, washers, dryers, water heaters, and up to 4 passenger tires.",
+          "Refrigerators, freezers, and A/C units are collected at the curb ONLY if tagged by a certified technician showing refrigerant was recovered."
+        ],
+        "not_accepted": [
+          "household garbage",
+          "electronics",
+          "paint and chemicals",
+          "dirt, sod, soil",
+          "roofing shingles",
+          "contractor construction debris"
+        ]
+      },
+      "landfill_and_transfer_station": {
+        "primary_facility_name": "Harris County Regional Landfills & City of Houston 6 Neighborhood Depositories",
+        "facility_address": "6 Houston Depositories: 9003 N. Main (77022); 14400 Sommermeyer (77041); 5565 Kirkpatrick (77028); 2240 Central St (77017); 5100 Sunbeam (77033); 10785 SW Freeway (77074)",
+        "official_tipping_rate_usd_per_ton_midpoint": 55.0,
+        "official_tipping_rate_description": "~$45.00-$65.00/ton at private Harris County regional landfills (WM Atascocita, Republic McCarty Rd, Whispering Pines, Blue Ridge)",
+        "hauler_overage_rate_per_ton": "$60 to $80 per ton above your container’s included weight limit",
+        "resident_self_haul_policy": "6 City of Houston Neighborhood Depositories (Tue-Sat 9am-6pm) offer free drop-off up to 4 visits/month with TX ID + current utility bill (no commercial vehicles, trailers >16'x4', or shingles)"
+      },
+      "roll_off_dumpster_pricing_7_to_10_days": {
+        "10_yard": "$320–$440",
+        "15_yard": "$355–$490",
+        "20_yard": "$390–$550",
+        "30_yard": "$475–$660",
+        "40_yard": "$565–$775",
+        "included_weight_20_yard": "2–3 tons (4,000–6,000 lbs)"
+      },
+      "street_right_of_way_permit": {
+        "permit_authority": "City of Houston Public Works ( Houston Permitting Center — Mobility / Street & Sidewalk Obstruction Permits) & Houston Fire Code (Combustible Waste Permit)",
+        "private_driveway_permit_required": false,
+        "private_driveway_rule": "No City of Houston right-of-way permit is required for a temporary residential roll-off dumpster placed entirely on your private driveway for fewer than 60 days.",
+        "public_street_permit_summary": "City of Houston Public Works Mobility (Street/Sidewalk Obstruction) Permit via Houston Permitting Center (1002 Washington Ave) + Fire Code Combustible Waste Permit if kept >60 days",
+        "public_street_permit_details": "Placing a roll-off container in a public street, curb lane, or sidewalk right-of-way in Houston requires a Street/Sidewalk Obstruction (Mobility) Permit through the Houston Permitting Center (1002 Washington Ave). In addition, commercial dumpsters or roll-offs exceeding 50 cubic feet kept on premises over 60 days require a City of Houston Combustible Waste Storage Permit and must comply with Fire Code clearance from buildings.",
+        "hoa_driveway_notes": "Although Houston has no municipal zoning code, deed-restricted neighborhoods (The Heights, River Oaks, Memorial, Kingwood, Clear Lake) and suburban MUD/HOA master-planned communities strictly enforce deed restrictions against street dumpsters and cap driveway containers at 7–14 days."
+      },
+      "official_sources": {
+        "municipal_bulk_source_url": "https://houstontx.gov/solidwaste/heavytrash.html",
+        "landfill_or_permit_source_url": "https://houstontx.gov/solidwaste/heavytrash.html",
+        "all_verified_sources": [
+          {
+            "id": 1,
+            "title": "City of Houston SWMD: Heavy Trash Collection (Junk Waste Even Months / Tree Waste Odd Months)",
+            "url": "https://houstontx.gov/solidwaste/heavytrash.html",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 2,
+            "title": "City of Houston SWMD: Residential Drop-Off Centers (6 Neighborhood Depositories)",
+            "url": "https://houstontx.gov/solidwaste/depository.html",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 3,
+            "title": "City of Houston SWMD: Environmental Service Centers (HHW & Electronics)",
+            "url": "https://www.houstontx.gov/solidwaste/esc.html",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 4,
+            "title": "LoadUp: Couch, Mattress & Appliance Removal Pricing",
+            "url": "https://goloadup.com/mattress-removal/",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 4,
+            "title": "Bark US: Local Roll-Off Dumpster Rental Quotes in Houston, TX",
+            "url": "https://www.bark.com/en/us/dumpster-rental/",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 5,
+            "title": "LoadUp: Upfront Junk Removal & Hauling Pricing",
+            "url": "https://goloadup.com/",
+            "accessed": "2026-10-24"
+          }
+        ]
+      },
+      "canonical_guides": {
+        "city_bulk_and_junk_removal_url": "https://junkhaulhq.com/junk-removal/houston-tx/",
+        "city_roll_off_dumpster_url": "https://junkhaulhq.com/dumpster-rental/houston-tx/"
+      }
+    },
+    {
+      "city_slug": "orlando-fl",
+      "city": "Orlando",
+      "state": "FL",
+      "county": "Orange County",
+      "covered_zips": [
+        "32801",
+        "32803",
+        "32804",
+        "32806",
+        "32819",
+        "32822",
+        "32827",
+        "32835"
+      ],
+      "last_verified": "2026-10-24",
+      "curbside_bulk_pickup": {
+        "program_name": "City of Orlando Solid Waste Division — Weekly Large Item & Yard Waste Curbside Collection",
+        "cost_model": "Included in City of Orlando Solid Waste Service (Weekly Curbside Large Item Pickup on Yard Waste Day)",
+        "volume_or_item_limit": "Up to 2 hand-loadable large items per week on regular yard waste day (or call 407-246-2314 to schedule claw truck for piles >2 items)",
+        "c_and_d_remodeling_debris_allowed": "No (Strictly Prohibited)",
+        "how_to_schedule": "Set up to 2 hand-loadable bulky items out on your weekly yard waste day, or call 407-246-2314 (swcustomersvc@orlando.gov) to schedule a claw-truck pickup or report a missed item.",
+        "rules": [
+          "City of Orlando residential customers can set out up to 2 hand-loadable large items (sofas, chairs, dressers, mattresses, toilets, or standard household appliances) for FREE on their weekly yard waste collection day without scheduling ahead.",
+          "Oversized or heavy piles requiring a mechanical claw truck (or exceeding 4 cubic yards) require calling Orlando Solid Waste at 407-246-2314 for a fee-based special collection.",
+          "Place items at the edge of your property before the curb by 6:00 a.m. (do not place items in the street or block sidewalks, storm drains, water meters, or hydrants).",
+          "Remove all doors from refrigerators and freezers before placing them at the curb for child safety."
+        ],
+        "not_accepted": [
+          "construction, remodeling, and demolition debris (drywall, tile, cabinets, roofing shingles, pressure-treated wood, fencing)",
+          "tree branches over 4 feet long or 4 inches in diameter, or bundles over 40 lbs",
+          "dirt, rock, gravel, concrete, and landscape ties",
+          "tires ($25 penalty if placed in city containers), auto parts, and hazardous waste/wet paint"
+        ]
+      },
+      "landfill_and_transfer_station": {
+        "primary_facility_name": "Orange County Solid Waste Landfill & Porter / McLeod Road Transfer Stations",
+        "facility_address": "Orange County Landfill: 5901 Young Pine Rd, Orlando, FL 32829 | Porter Transfer Station: 1326 Good Homes Rd, Orlando, FL 32818 | McLeod Rd Transfer Station: 5000 L.B. McLeod Rd, Orlando, FL 32811",
+        "official_tipping_rate_usd_per_ton_midpoint": 43.6,
+        "official_tipping_rate_description": "~$38.70/ton Class III (C&D) & ~$43.60/ton Class I (MSW) at Orange County Solid Waste Landfill (5901 Young Pine Rd)",
+        "hauler_overage_rate_per_ton": "$55 to $75 per ton above your container’s included weight limit",
+        "resident_self_haul_policy": "Orange County Landfill (5901 Young Pine Rd, open 7 days 8am-5pm) + Porter (1326 Good Homes Rd) & McLeod Rd (5000 L.B. McLeod Rd) Transfer Stations accept resident self-haul loads by scale weight"
+      },
+      "roll_off_dumpster_pricing_7_to_10_days": {
+        "10_yard": "$310–$430",
+        "15_yard": "$345–$480",
+        "20_yard": "$380–$535",
+        "30_yard": "$460–$645",
+        "40_yard": "$550–$755",
+        "included_weight_20_yard": "2–3 tons (4,000–6,000 lbs)"
+      },
+      "street_right_of_way_permit": {
+        "permit_authority": "City of Orlando Permitting Services — Right-of-Way (ROW) Utilization & Temporary Encroachment Permits",
+        "private_driveway_permit_required": false,
+        "private_driveway_rule": "No City of Orlando permit is required when your roll-off dumpster sits 100% on your private driveway behind the public sidewalk without encroaching into the street or grassy parkway strip.",
+        "public_street_permit_summary": "City of Orlando Permitting Services Right-of-Way Utilization / Temporary Encroachment Permit required for street, curb lane, sidewalk, or grassy parkway strip",
+        "public_street_permit_details": "Placing a roll-off container in the City of Orlando public right-of-way (street, curb lane, sidewalk, or grassy parkway area next to the street) requires a Right-of-Way Utilization / Temporary Right-of-Way Encroachment Permit from City of Orlando Permitting Services along with a Maintenance Guarantee/insurance and traffic safety cones.",
+        "hoa_driveway_notes": "Master-planned HOAs in Lake Nona, Baldwin Park, Avalon Park, Dr. Phillips, and Celebration/Horizon West enforce strict 7-day driveway container limits, prohibit street placement, and require protective boards on brick paver driveways."
+      },
+      "official_sources": {
+        "municipal_bulk_source_url": "https://www.orlando.gov/Trash-Recycling/Get-Large-Items-Picked-Up",
+        "landfill_or_permit_source_url": "https://www.orlando.gov/Trash-Recycling/Get-Large-Items-Picked-Up",
+        "all_verified_sources": [
+          {
+            "id": 1,
+            "title": "City of Orlando Solid Waste Division: Get Large Items Picked Up",
+            "url": "https://www.orlando.gov/Trash-Recycling/Get-Large-Items-Picked-Up",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 2,
+            "title": "City of Orlando Public Works: Solid Waste Division Rules & Yard Waste Limits",
+            "url": "https://www.orlando.gov/Our-Government/Departments-Offices/Public-Works/Solid-Waste",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 3,
+            "title": "Orange County Government Utilities: Landfill and Transfer Stations (5901 Young Pine Rd)",
+            "url": "https://www.ocfl.net/WaterGarbageRecycling/LandfillandTransferStations.aspx",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 4,
+            "title": "City of Orlando Permitting Services: Right-of-Way (ROW) Utilization & Encroachment Permits",
+            "url": "https://www.orlando.gov/Building-Development/Permits-Inspections/Get-a-Permit/Permitting-Forms-Documents/Right-of-Way-ROW-Forms",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 5,
+            "title": "LoadUp: Upfront Junk Removal & Hauling Pricing in Orlando, FL",
+            "url": "https://goloadup.com/",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 5,
+            "title": "Bark US: Local Roll-Off Dumpster Rental Quotes in Orlando, FL",
+            "url": "https://www.bark.com/en/us/dumpster-rental/",
+            "accessed": "2026-10-24"
+          }
+        ]
+      },
+      "canonical_guides": {
+        "city_bulk_and_junk_removal_url": "https://junkhaulhq.com/junk-removal/orlando-fl/",
+        "city_roll_off_dumpster_url": "https://junkhaulhq.com/dumpster-rental/orlando-fl/"
+      }
+    },
+    {
+      "city_slug": "phoenix-az",
+      "city": "Phoenix",
+      "state": "AZ",
+      "county": "Maricopa County",
+      "covered_zips": [
+        "85003",
+        "85004",
+        "85006",
+        "85007",
+        "85008",
+        "85009",
+        "85012",
+        "85013",
+        "85014",
+        "85015",
+        "85016",
+        "85018",
+        "85020",
+        "85021",
+        "85022",
+        "85023",
+        "85024",
+        "85027",
+        "85028",
+        "85032",
+        "85040",
+        "85042",
+        "85044",
+        "85048",
+        "85050",
+        "85085"
+      ],
+      "last_verified": "2026-10-24",
+      "curbside_bulk_pickup": {
+        "program_name": "City of Phoenix Appointment-Based Bulk Trash",
+        "cost_model": "Included in City of Phoenix Solid Waste Service (Up to 4 Appointment-Based Bulk Pickups/Year via myPHX311)",
+        "volume_or_item_limit": "Up to 4 appointment-based Bulk Trash collections per calendar year, max 10 cubic yards per appointment (book >=3 business days ahead)",
+        "c_and_d_remodeling_debris_allowed": "No (Major C&D Remodeling Debris Prohibited at Curb)",
+        "how_to_schedule": "Online at phoenix.gov/bulktrash or call 602-262-6251.",
+        "rules": [
+          "Appointment required; book at least 3 business days ahead.",
+          "Four collection opportunities per year.",
+          "Single pile, maximum 10 cubic yards, within 5 feet of the street/curb and 5 feet from fixed objects.",
+          "Out by 5:30 a.m. on your date and no more than 7 days early (earlier is an ordinance violation).",
+          "Bag and tie all loose grass, leaves and clippings; cut tree trimmings under 12 in. diameter and 4 ft long.",
+          "No appointments on Halloween, Thanksgiving, Christmas and New Year's Day or the 7 days after each."
+        ],
+        "not_accepted": [
+          "tires",
+          "household hazardous waste",
+          "refrigerators, freezers and A/C units (refrigerants)",
+          "glass, mirrors, shower doors",
+          "bricks, concrete, dirt, rocks, shingles",
+          "construction debris over 25 lb or 4 ft",
+          "more than 2 pallets",
+          "Bagster bags"
+        ]
+      },
+      "landfill_and_transfer_station": {
+        "primary_facility_name": "City of Phoenix 27th Avenue & North Gateway Transfer Stations (Routing to SR 85 Landfill in Buckeye)",
+        "facility_address": "27th Ave Transfer Station: 3060 S. 27th Ave, Phoenix, AZ 85009 | North Gateway Transfer Station: 30205 N. Black Canyon Hwy, Phoenix, AZ 85085",
+        "official_tipping_rate_usd_per_ton_midpoint": 55.0,
+        "official_tipping_rate_description": "$55.00/ton gate rate ($40.00 minimum) at 27th Ave & North Gateway Transfer Stations (City roll-off option: $165/pull + $55/ton)",
+        "hauler_overage_rate_per_ton": "$55 to $75 per ton above your private container’s included weight limit",
+        "resident_self_haul_policy": "Phoenix residential solid-waste utility customers receive 1 load up to 1.0 ton (2,000 lbs) FREE per calendar month at 27th Ave (3060 S. 27th Ave) or North Gateway (30205 N. Black Canyon Hwy) Transfer Station with utility bill + photo ID"
+      },
+      "roll_off_dumpster_pricing_7_to_10_days": {
+        "10_yard": "$315–$435 (Private) / $165+$55/t (City)",
+        "15_yard": "$350–$485 (Private only)",
+        "20_yard": "$385–$540 (Private) / $165+$55/t (City)",
+        "30_yard": "$470–$650 (Private) / $165+$55/t (City)",
+        "40_yard": "$560–$765 (Private) / $165+$55/t (City)",
+        "included_weight_20_yard": "2–3 tons (4,000–6,000 lbs)"
+      },
+      "street_right_of_way_permit": {
+        "permit_authority": "City of Phoenix Street Transportation Department — Right-of-Way Temporary Use & Revocable Permits (Phoenix City Code Sec. 31-81)",
+        "private_driveway_permit_required": false,
+        "private_driveway_rule": "No City of Phoenix permit is required when a roll-off container sits completely on your private driveway or residential property behind the sidewalk.",
+        "public_street_permit_summary": "Phoenix Street Transportation Dept Right-of-Way Temporary Use Permit under City Code Sec. 31-81 (file 2-3 business days prior; $0 temporary application processing fee; $100 residential / $1,000 commercial revocable ROW permit)",
+        "public_street_permit_details": "Under Phoenix City Code Section 31-81 (current through Ordinance G-7524, June 17, 2026), placing a dumpster or temporary obstruction in the public right-of-way requires filing a Right-of-Way Temporary Use Permit with the Street Transportation Department at least 2 business days prior for a partial/sidewalk restriction (or 3 business days prior for a full restriction). While Sec. 31-81(B)(1) waives the application processing fee for a temporary use permit, any revocable right-of-way permit carries a $100 fee for single-family residential zoned units and a $1,000 fee for commercial uses.",
+        "hoa_driveway_notes": "Phoenix and Valley HOAs (Ahwatukee Foothills, Desert Ridge, Anthem, Biltmore, Norterra) strictly enforce CC&Rs against street dumpsters and typically require advance notice for driveway containers kept over 7 days."
+      },
+      "official_sources": {
+        "municipal_bulk_source_url": "https://www.phoenix.gov/administration/departments/publicworks/residential-trash-recycling/bulk-trash-pickup.html",
+        "landfill_or_permit_source_url": "https://www.phoenix.gov/administration/departments/publicworks/residential-trash-recycling/dumpster-rental.html",
+        "all_verified_sources": [
+          {
+            "id": 1,
+            "title": "City of Phoenix: Bulk Trash",
+            "url": "https://www.phoenix.gov/administration/departments/publicworks/residential-trash-recycling/bulk-trash-pickup.html",
+            "accessed": "2026-10-21"
+          },
+          {
+            "id": 2,
+            "title": "City of Phoenix: Transfer Station and Materials Recovery Facility",
+            "url": "https://www.phoenix.gov/administration/departments/publicworks/about-us/transfer-stations.html",
+            "accessed": "2026-10-21"
+          },
+          {
+            "id": 3,
+            "title": "City of Phoenix Public Works: Residential Roll-Off Dumpster Rental (myPHX311)",
+            "url": "https://www.phoenix.gov/administration/departments/publicworks/residential-trash-recycling/dumpster-rental.html",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 3,
+            "title": "Phoenix City Code Sec. 31-81: Right-of-Way Temporary Use & Revocable Permit Fees",
+            "url": "https://phoenix.municipal.codes/CC/31-81",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 5,
+            "title": "Bark US: Local Roll-Off Dumpster Rental Quotes in Phoenix, AZ",
+            "url": "https://www.bark.com/en/us/dumpster-rental/",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 6,
+            "title": "LoadUp: Upfront Junk Removal & Hauling Pricing",
+            "url": "https://goloadup.com/",
+            "accessed": "2026-10-24"
+          }
+        ]
+      },
+      "canonical_guides": {
+        "city_bulk_and_junk_removal_url": "https://junkhaulhq.com/junk-removal/phoenix-az/",
+        "city_roll_off_dumpster_url": "https://junkhaulhq.com/dumpster-rental/phoenix-az/"
+      }
+    },
+    {
+      "city_slug": "raleigh-nc",
+      "city": "Raleigh",
+      "state": "NC",
+      "county": "Wake County",
+      "covered_zips": [
+        "27601",
+        "27603",
+        "27604",
+        "27605",
+        "27606",
+        "27607",
+        "27608",
+        "27609",
+        "27610",
+        "27612",
+        "27613",
+        "27614",
+        "27615",
+        "27616",
+        "27617"
+      ],
+      "last_verified": "2026-10-24",
+      "curbside_bulk_pickup": {
+        "program_name": "City of Raleigh Bulky Load, Special Load & E-Waste Curbside Collection",
+        "cost_model": "Paid Tiered Fee ($35 per 4 cu yd Bulky Load; $70 Special Load for appliances/exercise equipment; Free Monday E-Waste)",
+        "volume_or_item_limit": "4 cubic yards (approx. 4'x5'x5') per $35 Bulky Load appointment; Special Loads $70/appointment (call 919-996-3245)",
+        "c_and_d_remodeling_debris_allowed": "No (Strictly Prohibited)",
+        "how_to_schedule": "Call Raleigh Solid Waste Customer Support at 919-996-3245 to schedule a Bulky, Special, or E-Waste pickup.",
+        "rules": [
+          "Available to residential properties that receive City of Raleigh curbside garbage collection (not commercial businesses).",
+          "Bulky Load Collection covers household items too large for a cart (furniture, mattresses, box springs) up to 4 cubic yards (approx. 6 ft × 3 ft × 4 ft, or two couches / three queen mattresses) for $35 per load effective April 1, 2026.",
+          "Special Load Collection covers appliances, exercise equipment, and up to 15 excess bags for $70 per 4-cubic-yard load.",
+          "Free curbside E-Waste Collection covers up to 4 small corded appliances or electronics per week (effective October 26, 2026, E-Waste collection runs on Mondays only).",
+          "Cancel before noon the business day prior to scheduled collection to qualify for a refund."
+        ],
+        "not_accepted": [
+          "construction and demolition debris",
+          "contractor debris",
+          "hazardous waste and chemicals",
+          "car parts and carpeting (in Bulky Load)",
+          "loose leaves and dirt"
+        ]
+      },
+      "landfill_and_transfer_station": {
+        "primary_facility_name": "Wake County South Wake Landfill & East Wake Transfer Station",
+        "facility_address": "South Wake Landfill: 6300 Old Smithfield Rd, Apex, NC 27539 | East Wake Transfer Station: 8401 Battle Bridge Rd, Raleigh, NC 27610",
+        "official_tipping_rate_usd_per_ton_midpoint": 37.0,
+        "official_tipping_rate_description": "$37.00/ton MSW at Wake County South Wake Landfill (includes $2/ton NC excise tax) + $15/mattress shredder fee",
+        "hauler_overage_rate_per_ton": "$55 to $75 per ton (pro-rated to the exact scale weight above your container’s included tonnage cap)",
+        "resident_self_haul_policy": "Free residential household waste & mattress drop-off (up to 2 mattresses/day, items <8 ft) at 11 Wake County Convenience Centers (Daily 7am-7pm) & Multi-Material Facilities (9029 Deponie Dr & 6130 Old Smithfield Rd)"
+      },
+      "roll_off_dumpster_pricing_7_to_10_days": {
+        "10_yard": "$305–$415",
+        "15_yard": "$345–$460",
+        "20_yard": "$385–$525",
+        "30_yard": "$465–$625",
+        "40_yard": "$550–$745",
+        "included_weight_20_yard": "2–3 tons (4,000–6,000 lbs)"
+      },
+      "street_right_of_way_permit": {
+        "permit_authority": "City of Raleigh Department of Transportation (Raleigh DOT) — Right-of-Way (ROW) Services via the Raleigh Permit and Development Portal",
+        "private_driveway_permit_required": false,
+        "private_driveway_rule": "No City of Raleigh permit is required when your roll-off dumpster sits 100% on your private driveway or private property and does not overhang a public sidewalk, city planting strip, or street.",
+        "public_street_permit_summary": "Raleigh DOT Right-of-Way Occupancy Permit via Raleigh Permit and Development Portal required for street placement (15-day review, $5,000 contractor bond, DOT reflective cones)",
+        "public_street_permit_details": "If your driveway is too narrow, steep, or tree-lined (common Inside the Beltline in Oakwood, Mordecai, Boylan Heights, and Five Points) and the bin must sit on a public street or city right-of-way, you or your hauler must obtain a Right-of-Way Occupancy Permit through the Raleigh Permit and Development Portal before delivery. Street-placed containers require reflective DOT safety tape/cones, may not block fire hydrants, storm drains, bike lanes, or sight triangles within 25–30 feet of intersections, and require advance review.",
+        "hoa_driveway_notes": "Subdivisions in North Raleigh, Brier Creek, Wakefield, Bedford at Falls River, and Midtown townhome communities frequently limit driveway dumpsters to 7–14 days, prohibit placement on shared HOA guest pads, and require advance email notice to the property manager."
+      },
+      "official_sources": {
+        "municipal_bulk_source_url": "https://raleighnc.gov/landfill-and-reuse/services/bulky-special-and-e-waste-collection",
+        "landfill_or_permit_source_url": "https://www.wake.gov/departments-government/waste-recycling/facilities/wake-county-solid-waste-landfill/south-wake-landfill/fees-payment-methods-haulers",
+        "all_verified_sources": [
+          {
+            "id": 1,
+            "title": "City of Raleigh: Bulky, Special, and E-Waste Collection",
+            "url": "https://raleighnc.gov/landfill-and-reuse/services/bulky-special-and-e-waste-collection",
+            "accessed": "2026-10-23"
+          },
+          {
+            "id": 2,
+            "title": "City of Raleigh: Solid Waste Fees (Effective 2026)",
+            "url": "https://raleighnc.gov/landfill-and-reuse/services/solid-waste-fees",
+            "accessed": "2026-10-23"
+          },
+          {
+            "id": 3,
+            "title": "Wake County Government: Convenience Centers Locations, Hours & Acceptable Items",
+            "url": "https://www.wake.gov/departments-government/solid-waste-management/facilities/convenience-centers",
+            "accessed": "2026-10-23"
+          },
+          {
+            "id": 4,
+            "title": "Wake County Government: South Wake Landfill Tipping Fees",
+            "url": "https://www.wake.gov/departments-government/waste-recycling/facilities/wake-county-solid-waste-landfill/south-wake-landfill/fees-payment-methods-haulers",
+            "accessed": "2026-10-23"
+          },
+          {
+            "id": 5,
+            "title": "LoadUp: Appliance & Mattress Removal Pricing",
+            "url": "https://goloadup.com/mattress-removal/",
+            "accessed": "2026-10-23"
+          },
+          {
+            "id": 2,
+            "title": "City of Raleigh: Right-of-Way Services & Street Occupancy Permits",
+            "url": "https://raleighnc.gov/permits/services/right-way-services",
+            "accessed": "2026-10-23"
+          },
+          {
+            "id": 5,
+            "title": "Bark US: Local Roll-Off Dumpster Rental Quotes & Size Guide",
+            "url": "https://www.bark.com/en/us/dumpster-rental/",
+            "accessed": "2026-10-23"
+          },
+          {
+            "id": 6,
+            "title": "LoadUp: Upfront Junk Removal, Furniture & Appliance Hauling Pricing",
+            "url": "https://goloadup.com/",
+            "accessed": "2026-10-23"
+          }
+        ]
+      },
+      "canonical_guides": {
+        "city_bulk_and_junk_removal_url": "https://junkhaulhq.com/junk-removal/raleigh-nc/",
+        "city_roll_off_dumpster_url": "https://junkhaulhq.com/dumpster-rental/raleigh-nc/"
+      }
+    },
+    {
+      "city_slug": "research-triangle-park-nc",
+      "city": "Research Triangle Park (RTP)",
+      "state": "NC",
+      "county": "Durham and Wake County",
+      "covered_zips": [
+        "27709",
+        "27560"
+      ],
+      "last_verified": "2026-10-24",
+      "curbside_bulk_pickup": {
+        "program_name": "Durham & RTP Corridor Curbside Bulky Item Collection (Durham Solid Waste / Wake & Morrisville Rules)",
+        "cost_model": "Jurisdiction-Dependent (Durham side: 1 Free Pickup/Wk up to 3 items; Morrisville: Semi-Annual Free GFL Bulk Week; RTP Campus: Commercial Only)",
+        "volume_or_item_limit": "Durham residential side: 3 items/week free; Morrisville: up to 5 items <100 lbs during semi-annual GFL Bulk Week; commercial RTP campuses require private haulers",
+        "c_and_d_remodeling_debris_allowed": "No (Strictly Prohibited)",
+        "how_to_schedule": "Durham: Durham One Call at 919-560-1200 or durhamnc.gov. Cary: dial 311 (919-469-4000). Morrisville: GFL semi-annual Bulk Collection Week or Wake County Site 3 (266 Aviation Pkwy). Raleigh: 919-996-3245.",
+        "rules": [
+          "In the City of Durham (bordering northern/central RTP), residential curbside customers can schedule one free bulky item collection per week for up to 3 bulky items by request via Durham One Call (919-560-1200).",
+          "In the Town of Morrisville (bordering southern RTP), GFL provides semi-annual Bulk Collection Weeks (such as Oct 5–9, 2026) where eligible curbside households may place up to 5 acceptable bulky items under 100 lbs each at the curb by 7 a.m. (no on-demand municipal pickup outside bulk weeks).",
+          "In the Town of Cary ($15 first item + $8 additional via Cary 311) and City of Raleigh ($35 per 4 cu yd Bulky Load via 919-996-3245), curbside bulky pickups are scheduled by appointment.",
+          "Commercial campuses, labs, and offices inside Research Triangle Park are not eligible for municipal residential curbside carts and must use commercial roll-off haulers or on-demand junk removal services."
+        ],
+        "not_accepted": [
+          "building materials and construction debris",
+          "electronics (e-waste) and television sets at the curb",
+          "glass, mirrors, and windows",
+          "car parts, tires, and propane tanks",
+          "wood, pallets, lumber, and tree stumps"
+        ]
+      },
+      "landfill_and_transfer_station": {
+        "primary_facility_name": "City of Durham Waste Disposal & Recycling Center (Transfer Station) & Wake County South Wake Landfill",
+        "facility_address": "Durham Transfer Station: 2115 E. Club Blvd, Durham, NC 27704 | Wake County Site 3 (Residential only): 266 Aviation Pkwy, Morrisville, NC 27560",
+        "official_tipping_rate_usd_per_ton_midpoint": 65.0,
+        "official_tipping_rate_description": "$65.00/ton commercial rate at Durham Transfer Station (2115 E. Club Blvd) / $37.00/ton MSW at Wake County South Wake Landfill",
+        "hauler_overage_rate_per_ton": "$60 to $85 per ton above your included weight allowance (higher on Durham-disposed loads due to the $65/ton transfer station fee)",
+        "resident_self_haul_policy": "Wake County Site 3 (266 Aviation Pkwy, Morrisville — free for Wake residents), Durham County Parkwood Site (5928 Hwy 55 — decal holders), or Durham Transfer Station ($10-$20 resident pickup flat fee)"
+      },
+      "roll_off_dumpster_pricing_7_to_10_days": {
+        "10_yard": "$315–$425",
+        "15_yard": "$355–$475",
+        "20_yard": "$395–$545",
+        "30_yard": "$475–$650",
+        "40_yard": "$565–$760",
+        "included_weight_20_yard": "2–3 tons (4,000–6,000 lbs)"
+      },
+      "street_right_of_way_permit": {
+        "permit_authority": "Research Triangle Foundation Covenants / Campus Property Management, Durham DOT (919-560-4366), & Town of Morrisville Engineering",
+        "private_driveway_permit_required": false,
+        "private_driveway_rule": "No municipal street permit is needed when placing a roll-off container in a private commercial loading dock bay, private office parking lot (with landlord approval), or private residential driveway in South Durham or Morrisville.",
+        "public_street_permit_summary": "No parkway placement allowed inside RTP covenants (screened loading docks/staging pads only); surrounding residential streets require Durham DOT or Town of Morrisville Engineering ROW approval",
+        "public_street_permit_details": "Inside Research Triangle Park proper, containers may never be placed on parkways (Davis Dr, Miami Blvd, TW Alexander Dr, Cornwallis Rd, Kit Creek Rd) and must sit inside screened loading areas or designated contractor staging pads approved by campus facilities management. In residential neighborhoods bordering RTP, placing a container on a public street requires a City of Durham Right-of-Way Street Obstruction Permit or Town of Morrisville encroachment approval.",
+        "hoa_driveway_notes": "Residential communities surrounding RTP—such as Breckenridge, Kitts Creek, Park West, Carpenter Village, and Brightleaf at the Park—enforce strict HOA rules against leaving dumpsters in townhome alleys or guest parking spaces without prior property-management sign-off."
+      },
+      "official_sources": {
+        "municipal_bulk_source_url": "https://www.durhamnc.gov/855/Bulky-Services",
+        "landfill_or_permit_source_url": "https://www.durhamnc.gov/898/Disposal-and-Drop-Off-Facilities",
+        "all_verified_sources": [
+          {
+            "id": 1,
+            "title": "City of Durham: Curbside Bulky Service Collections (By Request Only)",
+            "url": "https://www.durhamnc.gov/855/Bulky-Services",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 2,
+            "title": "City of Durham: Disposal and Drop-Off Facilities (2115 E. Club Blvd Fees & Hours)",
+            "url": "https://www.durhamnc.gov/898/Disposal-and-Drop-Off-Facilities",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 3,
+            "title": "Wake County Government: Convenience Centers (Site 3 — 266 Aviation Pkwy)",
+            "url": "https://www.wake.gov/departments-government/solid-waste-management/facilities/convenience-centers",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 4,
+            "title": "LoadUp: Junk, Furniture & Appliance Removal Pricing",
+            "url": "https://goloadup.com/couch-removal/",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 5,
+            "title": "Durham County Government: Parkwood Convenience Site (5928 Hwy 55) & Solid Waste Rules",
+            "url": "https://dconc.gov/General-Services/Waste-and-Recycling/Durham-County-Convenience-Sites",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 6,
+            "title": "Town of Morrisville: Bulk Item Disposal & GFL Bulk Collection Week",
+            "url": "https://www.morrisvillenc.gov/Services-Forms/Garbage-Recycling-and-Yard-Waste/Bulk-Item-Disposal",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 4,
+            "title": "Bark US: Commercial & Residential Roll-Off Dumpster Rental Quotes",
+            "url": "https://www.bark.com/en/us/dumpster-rental/",
+            "accessed": "2026-10-23"
+          },
+          {
+            "id": 5,
+            "title": "LoadUp: Commercial Office & Residential Junk Removal Pricing",
+            "url": "https://goloadup.com/",
+            "accessed": "2026-10-23"
+          }
+        ]
+      },
+      "canonical_guides": {
+        "city_bulk_and_junk_removal_url": "https://junkhaulhq.com/junk-removal/research-triangle-park-nc/",
+        "city_roll_off_dumpster_url": "https://junkhaulhq.com/dumpster-rental/research-triangle-park-nc/"
+      }
+    },
+    {
+      "city_slug": "tampa-fl",
+      "city": "Tampa",
+      "state": "FL",
+      "county": "Hillsborough County",
+      "covered_zips": [
+        "33602",
+        "33606",
+        "33607",
+        "33609",
+        "33611",
+        "33612",
+        "33629",
+        "33647"
+      ],
+      "last_verified": "2026-10-24",
+      "curbside_bulk_pickup": {
+        "program_name": "City of Tampa Department of Solid Waste — Annual SWEEP Curbside Pickup & McKay Bay Resident Drop-Off",
+        "cost_model": "Included in City of Tampa Solid Waste Service (Annual SWEEP Curbside Pickup + 5 Free McKay Bay Drop-Offs/Year)",
+        "volume_or_item_limit": "Up to 10 cubic yards once per year during scheduled zone SWEEP week + up to 5 free self-haul visits/year (max 1,000 lbs) at McKay Bay Scale House",
+        "c_and_d_remodeling_debris_allowed": "No (Strictly Prohibited at SWEEP & Paid-Only at McKay Bay; masonry/brick banned at WTE)",
+        "how_to_schedule": "Check your zone’s SWEEP schedule on the Tampa Trash & Recycling app or tampa.gov/solid-waste, or call City of Tampa Utilities at 813-274-8811.",
+        "rules": [
+          "SWEEP (Solid Waste Enhanced Environmental Program) provides annual zone-by-zone curbside bulky waste collection (up to 10 cubic yards) for active City of Tampa residential solid waste accounts.",
+          "Year-round alternative: City of Tampa residential account holders can bring furniture, mattresses, yard waste (in paper bags or jute twine), and up to 2 appliances per visit for FREE to the McKay Bay Scale House (114 S 34th St) with a matching photo ID and Tampa utility bill (up to 5 free self-haul visits/year up to 1,000 lbs).",
+          "Place SWEEP piles at the curb only during your neighborhood’s scheduled SWEEP week—keep items clear of water meters, fire hydrants, storm drains, and low-hanging oak limbs.",
+          "Note: Residents in New Tampa and unincorporated Hillsborough County are served by Hillsborough County Solid Waste (813-272-5680)."
+        ],
+        "not_accepted": [
+          "construction, remodeling, and demolition debris (tile, drywall, roofing shingles, plywood, fencing, plaster)",
+          "bricks, rocks, cinder blocks, concrete, and dirt",
+          "household hazardous waste, wet paint, chemicals, and propane tanks",
+          "electronics and TVs (take to Hillsborough County HHW/Community Collection Centers)",
+          "tires and large automotive parts"
+        ]
+      },
+      "landfill_and_transfer_station": {
+        "primary_facility_name": "McKay Bay Transfer Station & Scale House (City of Tampa) & Hillsborough County Southeast County Landfill",
+        "facility_address": "McKay Bay Scale House: 114 S 34th St, Tampa, FL 33605 | Hillsborough County Southeast Landfill: 15960 County Rd 672, Lithia, FL 33547",
+        "official_tipping_rate_usd_per_ton_midpoint": 65.0,
+        "official_tipping_rate_description": "~$55.00-$75.00/ton commercial/C&D scale rate at McKay Bay Scale House (114 S 34th St) & Hillsborough County Southeast Landfill",
+        "hauler_overage_rate_per_ton": "$60 to $80 per ton above your container’s included weight limit",
+        "resident_self_haul_policy": "City of Tampa residential solid-waste customers get up to 5 FREE drop-off visits/year (up to 1,000 lbs of furniture, mattresses & up to 2 appliances) at McKay Bay Scale House (114 S 34th St) with photo ID + Tampa utility bill"
+      },
+      "roll_off_dumpster_pricing_7_to_10_days": {
+        "10_yard": "$315–$435",
+        "15_yard": "$350–$490",
+        "20_yard": "$385–$545",
+        "30_yard": "$465–$655",
+        "40_yard": "$555–$765",
+        "included_weight_20_yard": "2–3 tons (4,000–6,000 lbs)"
+      },
+      "street_right_of_way_permit": {
+        "permit_authority": "City of Tampa Transportation & Stormwater Services — Right of Way Permitting Section (Accela Portal)",
+        "private_driveway_permit_required": false,
+        "private_driveway_rule": "No City of Tampa permit is required when your roll-off dumpster sits 100% on your private driveway behind the public sidewalk and property line.",
+        "public_street_permit_summary": "City of Tampa Transportation & Stormwater Services Right-of-Way Permit via Accela portal required (12-15 business days review, Certificate of Insurance, Site Plan & Maintenance of Traffic plan)",
+        "public_street_permit_details": "Placing a temporary structure (dumpster, trailer, or POD) in the City of Tampa public right-of-way requires a Planning — Right of Way Permit Application in Accela (tampa.gov/tss-transportation/programs-and-services/right-way-permits), including a Certificate of Insurance, a Site Plan showing the fire lane, and a Maintenance of Traffic (MOT) Plan. Standard ROW permit review takes 12 to 15 business days, and a 48-hour Work Start Notice is required before the ROW Permit Placard is issued.",
+        "hoa_driveway_notes": "Master-planned HOAs in New Tampa (Tampa Palms, Hunter’s Green), Westchase, Harbour Island, and Davis Islands enforce strict driveway duration limits and architectural/HOA notice rules."
+      },
+      "official_sources": {
+        "municipal_bulk_source_url": "https://www.tampa.gov/solid-waste/programs/sweep",
+        "landfill_or_permit_source_url": "https://www.tampa.gov/solid-waste/programs/sweep",
+        "all_verified_sources": [
+          {
+            "id": 1,
+            "title": "City of Tampa Department of Solid Waste: SWEEP Curbside Bulky Pickup Program",
+            "url": "https://www.tampa.gov/solid-waste/programs/sweep",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 2,
+            "title": "City of Tampa Solid Waste: McKay Bay Scale House Waste Disposal (114 S 34th St)",
+            "url": "https://www.tampa.gov/solid-waste/info/mckay-bay/mckay-bay-scalehouse",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 3,
+            "title": "Hillsborough County Government: Trash & Recycling Community Collection Centers",
+            "url": "https://hcfl.gov/residents/property-owners-and-renters/trash-and-recycling",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 4,
+            "title": "City of Tampa Transportation & Stormwater Services: Right of Way Permitting Section",
+            "url": "https://www.tampa.gov/tss-transportation/programs-and-services/right-way-permits",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 5,
+            "title": "LoadUp: Upfront Junk Removal & Bulky Item Hauling in Tampa, FL",
+            "url": "https://goloadup.com/",
+            "accessed": "2026-10-24"
+          },
+          {
+            "id": 5,
+            "title": "Bark US: Local Roll-Off Dumpster Rental Quotes in Tampa, FL",
+            "url": "https://www.bark.com/en/us/dumpster-rental/",
+            "accessed": "2026-10-24"
+          }
+        ]
+      },
+      "canonical_guides": {
+        "city_bulk_and_junk_removal_url": "https://junkhaulhq.com/junk-removal/tampa-fl/",
+        "city_roll_off_dumpster_url": "https://junkhaulhq.com/dumpster-rental/tampa-fl/"
+      }
+    }
+  ]
+}
